@@ -1,0 +1,32 @@
+# Failure Signature Analysis Configuration (Non-Arithmetic)
+# Example: python skill_learning/analyze_failure_signatures.py --config configs/analysis/haiku35_non_arithmetic_failures.yaml
+
+analysis:
+  name: "haiku35_non_arithmetic_failures_analysis"
+  description: "Failure signature analysis for Haiku 3.5 non-arithmetic baseline"
+
+# Model used to generate failure signatures (analyzes failures)
+model:
+  name: "claude-sonnet-4-5-20250929"  # Use Sonnet 4.5 for more complex non-arithmetic analysis
+  temperature: 0.0
+  max_tokens: 1024  # Higher limit for complex non-arithmetic reasoning
+
+# Input configuration
+input:
+  results_dir: "results/haiku35_non_arithmetic_train_baseline"  # Directory with evaluation results
+  splits: ["train"]  # Analyze training split only
+  famma_dataset: "famma_data/release_basic_txt-00000-of-00001.parquet"  # FAMMA metadata (subfields, options)
+  pot_mode: false  # Non-arithmetic questions use direct reasoning (excludes error type 10: code execution error)
+
+# Output configuration
+output:
+  dir: "case_analysis/haiku35_non_arithmetic_failures"  # Output directory
+
+# Clustering configuration
+clustering:
+  method: "statistical"  # Options: "signature", "error_type", "modality", "statistical", "embedding"
+
+# Checkpoint configuration
+checkpoint:
+  enabled: true
+  interval: 10  # Save checkpoint every N signatures

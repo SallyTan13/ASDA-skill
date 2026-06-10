@@ -1,0 +1,3147 @@
+[
+  {
+    "epoch": 1,
+    "step": 100,
+    "val_results": {
+      "accuracy": 0.4266666666666667,
+      "correct": 128,
+      "total": 300,
+      "no_answer": 0
+    },
+    "error_log": {
+      "accuracy": 0.4266666666666667,
+      "errors": [
+        {
+          "index": 4,
+          "prediction": "0.06774688184706364",
+          "ground_truth": ".0848, or 8.48%"
+        },
+        {
+          "index": 0,
+          "prediction": "0.29136",
+          "ground_truth": "0.73%"
+        },
+        {
+          "index": 8,
+          "prediction": "0.07461305514714466",
+          "ground_truth": "0.0663"
+        },
+        {
+          "index": 9,
+          "prediction": "18.342917745342017",
+          "ground_truth": "$31.22"
+        },
+        {
+          "index": 3,
+          "prediction": "0.15033333333333332",
+          "ground_truth": ".0685, or 6.85%"
+        },
+        {
+          "index": 10,
+          "prediction": "43508.23373095754",
+          "ground_truth": "$123,048.11"
+        },
+        {
+          "index": 2,
+          "prediction": "",
+          "ground_truth": "$1,390,909.66"
+        },
+        {
+          "index": 12,
+          "prediction": "[0.0995, 0.118, 0.24250000000000002]",
+          "ground_truth": ".0662, or 6.62%"
+        },
+        {
+          "index": 15,
+          "prediction": "950.4722727626781",
+          "ground_truth": "Price = $984.10"
+        },
+        {
+          "index": 23,
+          "prediction": "",
+          "ground_truth": "B"
+        },
+        {
+          "index": 16,
+          "prediction": "0.28",
+          "ground_truth": "0.55"
+        },
+        {
+          "index": 22,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 24,
+          "prediction": "9416683.596802074",
+          "ground_truth": "$4,940"
+        },
+        {
+          "index": 26,
+          "prediction": "5258",
+          "ground_truth": "Use, \u2013$5,258"
+        },
+        {
+          "index": 27,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 30,
+          "prediction": "30.361137743688083",
+          "ground_truth": "37"
+        },
+        {
+          "index": 31,
+          "prediction": "",
+          "ground_truth": "Yes.Question 5."
+        },
+        {
+          "index": 32,
+          "prediction": "0.10600000000000001",
+          "ground_truth": "11.79%"
+        },
+        {
+          "index": 34,
+          "prediction": "0.16",
+          "ground_truth": "The actually expected return on the stock is 15%.\nThe stock is overpriced."
+        },
+        {
+          "index": 35,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 37,
+          "prediction": "",
+          "ground_truth": "1.13"
+        },
+        {
+          "index": 36,
+          "prediction": "",
+          "ground_truth": "2.32%"
+        },
+        {
+          "index": 43,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 38,
+          "prediction": "(227000.0, 197000.0, 102000.0, 197000.0)",
+          "ground_truth": "Yes."
+        },
+        {
+          "index": 46,
+          "prediction": "125000",
+          "ground_truth": "$119,750"
+        },
+        {
+          "index": 42,
+          "prediction": "[-4.347826086956498, -35.88665322443756]",
+          "ground_truth": "23.82"
+        },
+        {
+          "index": 48,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 45,
+          "prediction": "0.17050000000000004",
+          "ground_truth": ".1065, or 10.65%"
+        },
+        {
+          "index": 50,
+          "prediction": "",
+          "ground_truth": "D"
+        },
+        {
+          "index": 52,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 54,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 56,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 53,
+          "prediction": "",
+          "ground_truth": "E(r_{P})=6%+(\\betaP1 \u00d710%)+(\\betaP2 \u00d75%)"
+        },
+        {
+          "index": 58,
+          "prediction": "",
+          "ground_truth": "DVD"
+        },
+        {
+          "index": 59,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 61,
+          "prediction": "0.030000000000000002",
+          "ground_truth": "17.80%"
+        },
+        {
+          "index": 67,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 63,
+          "prediction": "23094",
+          "ground_truth": "Use, \u2013$23,094"
+        },
+        {
+          "index": 64,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 71,
+          "prediction": "E",
+          "ground_truth": "B"
+        },
+        {
+          "index": 73,
+          "prediction": "-1.24184264611831",
+          "ground_truth": "0.167."
+        },
+        {
+          "index": 76,
+          "prediction": "",
+          "ground_truth": "43.22%"
+        },
+        {
+          "index": 81,
+          "prediction": "B",
+          "ground_truth": "E"
+        },
+        {
+          "index": 79,
+          "prediction": "-267500.0",
+          "ground_truth": "$455,000"
+        },
+        {
+          "index": 80,
+          "prediction": "25",
+          "ground_truth": "25.01 years"
+        },
+        {
+          "index": 83,
+          "prediction": "-68049.60273972603",
+          "ground_truth": "Yes."
+        },
+        {
+          "index": 84,
+          "prediction": "978.2700378739484",
+          "ground_truth": "$949.72"
+        },
+        {
+          "index": 86,
+          "prediction": "[9.100000000000001, 17.200000000000003, 20.8, 21.075, 16.05, 11.675]",
+          "ground_truth": "13.875, 17.20, 20.80, 21.075, 16.05, and 11.675"
+        },
+        {
+          "index": 90,
+          "prediction": "B",
+          "ground_truth": "D"
+        },
+        {
+          "index": 87,
+          "prediction": "[0.05000723452090727, 0.0599915056275222, 0.07001110886689532]",
+          "ground_truth": "Maturity 1's YTM is 6.00%,\nMaturity 2's YTM is 5.50%,Maturity 2's forward rate is 5.0%,\nMaturity 1's YTM is 5.67%,Maturity 3's forward rate is 6.0%,\nMaturity 1's YTM is 6.00%,Maturity 4's forward rate is 7.0%"
+        },
+        {
+          "index": 85,
+          "prediction": "",
+          "ground_truth": "$22,370,130.74"
+        },
+        {
+          "index": 91,
+          "prediction": "0.02175",
+          "ground_truth": "0.65%"
+        },
+        {
+          "index": 94,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 99,
+          "prediction": "5.789608574091333",
+          "ground_truth": "4.51 years"
+        },
+        {
+          "index": 98,
+          "prediction": "",
+          "ground_truth": "6.33%"
+        },
+        {
+          "index": 96,
+          "prediction": "0.26800000000000007",
+          "ground_truth": "19% -> $1900"
+        },
+        {
+          "index": 101,
+          "prediction": "0.181",
+          "ground_truth": ".0610, or 6.10%"
+        },
+        {
+          "index": 97,
+          "prediction": "-0.19717395562261436",
+          "ground_truth": "0.0315"
+        },
+        {
+          "index": 108,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 110,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 107,
+          "prediction": "72656757.38742459",
+          "ground_truth": "0.37986"
+        },
+        {
+          "index": 109,
+          "prediction": "46484",
+          "ground_truth": "Source, $46,484"
+        },
+        {
+          "index": 111,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 115,
+          "prediction": "18.26909959467078",
+          "ground_truth": ".2043, or 20.43%"
+        },
+        {
+          "index": 116,
+          "prediction": "E",
+          "ground_truth": "C"
+        },
+        {
+          "index": 119,
+          "prediction": "E",
+          "ground_truth": "C"
+        },
+        {
+          "index": 121,
+          "prediction": "15",
+          "ground_truth": "14.81 years"
+        },
+        {
+          "index": 122,
+          "prediction": "[0.0995, 0.118, 0.24250000000000002]",
+          "ground_truth": ".0685, or 6.85%"
+        },
+        {
+          "index": 125,
+          "prediction": "10000",
+          "ground_truth": "665"
+        },
+        {
+          "index": 124,
+          "prediction": "",
+          "ground_truth": "$1,240.28"
+        },
+        {
+          "index": 126,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 127,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 128,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 131,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 134,
+          "prediction": "600000.0",
+          "ground_truth": "options on $100,000 (or 1,000 contracts) \n should be purchased"
+        },
+        {
+          "index": 133,
+          "prediction": "0.17614604462474642",
+          "ground_truth": "5.64%"
+        },
+        {
+          "index": 130,
+          "prediction": "85142.2",
+          "ground_truth": "$7,583"
+        },
+        {
+          "index": 140,
+          "prediction": "17.647058823529413",
+          "ground_truth": "$10,200"
+        },
+        {
+          "index": 138,
+          "prediction": "",
+          "ground_truth": "47.78%"
+        },
+        {
+          "index": 143,
+          "prediction": "A",
+          "ground_truth": "b."
+        },
+        {
+          "index": 144,
+          "prediction": "",
+          "ground_truth": "$57,015.31"
+        },
+        {
+          "index": 145,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 149,
+          "prediction": "408.0",
+          "ground_truth": "Profit/Loss per lb for day 1,2,3 is $0.0002, $0.0013, $0.0057, total value of contract at day 0,1,2,3 is $9714, $9162,$9240, $9582; mark-to-market settle for day 1,2,3 is -$12, $78, $342."
+        },
+        {
+          "index": 141,
+          "prediction": "                  A          B          C          D          E          F          G           H          I     Market\nmean       9.227500  15.841667  33.174167  19.050000  38.898333  33.716667  32.790000   11.323333  39.351667  44.723333\nstd       20.225386  35.858289  38.205735  30.462260  24.500505  30.160612  34.902428   57.369765  28.990077  32.531521\nmin      -41.610000 -49.870000 -74.650000 -42.280000   0.720000   3.210000 -45.640000  -79.760000  -1.500000   0.090000\nmax       29.650000  78.220000  85.020000  63.950000  74.520000  90.430000  92.390000  101.670000  80.590000  94.670000\nskewness  -1.552599  -0.064603  -2.118740  -0.577599  -0.044886   0.896500  -0.511451    0.247601   0.320323   0.359388\nkurtosis   2.848744   0.266084   6.558008   0.082047  -0.839735  -0.126419   1.807614   -0.598105  -1.501337  -1.343464",
+          "ground_truth": "Using the regression feature of Excel with the data presented in the text, the first- pass (SCL) estimation results are:<ans_image_1>"
+        },
+        {
+          "index": 152,
+          "prediction": "0.11460000000000001",
+          "ground_truth": ".1026, or 10.26%"
+        },
+        {
+          "index": 151,
+          "prediction": "0.01262",
+          "ground_truth": "0.01271"
+        },
+        {
+          "index": 155,
+          "prediction": "81.53846153846153",
+          "ground_truth": "0.9198"
+        },
+        {
+          "index": 158,
+          "prediction": "0.1113",
+          "ground_truth": ".0993, or 9.93%"
+        },
+        {
+          "index": 157,
+          "prediction": "",
+          "ground_truth": "B"
+        },
+        {
+          "index": 160,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 161,
+          "prediction": "(0.17391304347826086, 0.8260869565217391, 0.13391304347826086, np.float64(0.13917458538609448))",
+          "ground_truth": "The proportion of the optimal risky portfolio invested in the stock fund is given by:\nW_{S} = 0.4516\nW_{B} = 0.5484\nThe mean and standard deviation of the optimal risky portfolio are: \nE(r_{P}) = 15.61%\n\\delta p = 16.54%"
+        },
+        {
+          "index": 164,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 165,
+          "prediction": "75.0",
+          "ground_truth": "0.9198"
+        },
+        {
+          "index": 167,
+          "prediction": "0.012693590000000003",
+          "ground_truth": "0.013767"
+        },
+        {
+          "index": 170,
+          "prediction": "0.6375838926174497",
+          "ground_truth": "0.78"
+        },
+        {
+          "index": 171,
+          "prediction": "0.6629736043011065",
+          "ground_truth": "2.2673% \u2245 2.27%"
+        },
+        {
+          "index": 173,
+          "prediction": "",
+          "ground_truth": "Project A"
+        },
+        {
+          "index": 174,
+          "prediction": "205500.0",
+          "ground_truth": "$0"
+        },
+        {
+          "index": 175,
+          "prediction": "5000",
+          "ground_truth": "Source, $5,000"
+        },
+        {
+          "index": 177,
+          "prediction": "20.210526315789473",
+          "ground_truth": "20.32 times"
+        },
+        {
+          "index": 179,
+          "prediction": "9.6",
+          "ground_truth": ".2617, or 26.17%"
+        },
+        {
+          "index": 182,
+          "prediction": "10.4",
+          "ground_truth": ".0990, or 9.90%"
+        },
+        {
+          "index": 180,
+          "prediction": "16606666.66666667",
+          "ground_truth": "$16,114,285.71"
+        },
+        {
+          "index": 183,
+          "prediction": "0.15333333333333335",
+          "ground_truth": ".0691, or 6.91%"
+        },
+        {
+          "index": 184,
+          "prediction": "",
+          "ground_truth": "Project B"
+        },
+        {
+          "index": 186,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 188,
+          "prediction": "37000.0",
+          "ground_truth": "$13,000"
+        },
+        {
+          "index": 185,
+          "prediction": "5155200.0",
+          "ground_truth": "$6,514,285.71"
+        },
+        {
+          "index": 187,
+          "prediction": "0.13380012690632984",
+          "ground_truth": "Too high."
+        },
+        {
+          "index": 191,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 190,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 194,
+          "prediction": "",
+          "ground_truth": "46.67%"
+        },
+        {
+          "index": 197,
+          "prediction": "1140",
+          "ground_truth": "Use, \u2013$1,140"
+        },
+        {
+          "index": 202,
+          "prediction": "(260000, 80000)",
+          "ground_truth": "$197,000"
+        },
+        {
+          "index": 204,
+          "prediction": "(np.float64(6.571428571428571), np.float64(9.142857142857142))",
+          "ground_truth": "\\beta_{A} = 2.00\n\\beta_{D} = 0.30"
+        },
+        {
+          "index": 203,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 205,
+          "prediction": "E",
+          "ground_truth": "B"
+        },
+        {
+          "index": 206,
+          "prediction": "",
+          "ground_truth": "Project I"
+        },
+        {
+          "index": 214,
+          "prediction": "",
+          "ground_truth": "1.24"
+        },
+        {
+          "index": 216,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 217,
+          "prediction": "",
+          "ground_truth": "deepwater fishing project"
+        },
+        {
+          "index": 215,
+          "prediction": "0.6629736043011065",
+          "ground_truth": "2.133% \u2245 2.13%"
+        },
+        {
+          "index": 218,
+          "prediction": "16.795517954385247",
+          "ground_truth": "$8.11"
+        },
+        {
+          "index": 221,
+          "prediction": "",
+          "ground_truth": "$53,858.42"
+        },
+        {
+          "index": 219,
+          "prediction": "",
+          "ground_truth": "$105,300"
+        },
+        {
+          "index": 223,
+          "prediction": "35.0",
+          "ground_truth": "7.81%"
+        },
+        {
+          "index": 222,
+          "prediction": "0.06604449454051413",
+          "ground_truth": ".0260, or 2.60%"
+        },
+        {
+          "index": 225,
+          "prediction": "117.6",
+          "ground_truth": "$105.30"
+        },
+        {
+          "index": 224,
+          "prediction": "",
+          "ground_truth": ".1324, or 13.24%"
+        },
+        {
+          "index": 226,
+          "prediction": "SELL",
+          "ground_truth": "Firm C\u2019s stock is underpriced, and you should buy it."
+        },
+        {
+          "index": 232,
+          "prediction": "",
+          "ground_truth": "$36,286,957"
+        },
+        {
+          "index": 230,
+          "prediction": "0.06909623528242492",
+          "ground_truth": ".1313, or 13.13%"
+        },
+        {
+          "index": 234,
+          "prediction": "",
+          "ground_truth": "board game"
+        },
+        {
+          "index": 235,
+          "prediction": "52.15937022625309",
+          "ground_truth": "$46.44"
+        },
+        {
+          "index": 231,
+          "prediction": "",
+          "ground_truth": "\u2013$2,045.88"
+        },
+        {
+          "index": 239,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 238,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 237,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 240,
+          "prediction": "0.03546099290780142",
+          "ground_truth": "35.50%"
+        },
+        {
+          "index": 242,
+          "prediction": "",
+          "ground_truth": "13.22%"
+        },
+        {
+          "index": 245,
+          "prediction": "303529.41176470584",
+          "ground_truth": "$233,666.67"
+        },
+        {
+          "index": 252,
+          "prediction": "0.0012599399999999998",
+          "ground_truth": "0.001549"
+        },
+        {
+          "index": 247,
+          "prediction": "1.62",
+          "ground_truth": "4.617"
+        },
+        {
+          "index": 248,
+          "prediction": "0.3440930106817051",
+          "ground_truth": "0.56"
+        },
+        {
+          "index": 254,
+          "prediction": "3654000.0",
+          "ground_truth": "$5,804,000"
+        },
+        {
+          "index": 253,
+          "prediction": "299000.0",
+          "ground_truth": "$125,000"
+        },
+        {
+          "index": 255,
+          "prediction": "E",
+          "ground_truth": "B"
+        },
+        {
+          "index": 251,
+          "prediction": "",
+          "ground_truth": "E(r_{X})=20%\nE(r_{Y})=10%"
+        },
+        {
+          "index": 256,
+          "prediction": "333.76000000000005",
+          "ground_truth": "0.04172"
+        },
+        {
+          "index": 260,
+          "prediction": "",
+          "ground_truth": "B"
+        },
+        {
+          "index": 259,
+          "prediction": "39.81196581196581",
+          "ground_truth": "$46.29"
+        },
+        {
+          "index": 261,
+          "prediction": "",
+          "ground_truth": "\u20131"
+        },
+        {
+          "index": 263,
+          "prediction": "",
+          "ground_truth": "0.131"
+        },
+        {
+          "index": 265,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 264,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 267,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 268,
+          "prediction": "5.987603518866692",
+          "ground_truth": "$3.99"
+        },
+        {
+          "index": 269,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 270,
+          "prediction": "",
+          "ground_truth": "46.05%"
+        },
+        {
+          "index": 274,
+          "prediction": "E",
+          "ground_truth": "B"
+        },
+        {
+          "index": 273,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 272,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 275,
+          "prediction": "",
+          "ground_truth": "$1.40"
+        },
+        {
+          "index": 276,
+          "prediction": "61.07142857142856",
+          "ground_truth": "$75.94"
+        },
+        {
+          "index": 282,
+          "prediction": "-0.0740725037099852",
+          "ground_truth": "If one year from now y = 8%, then the bond price will be:\n$1,008.92 \nThe holding period rate of return is:5.16%"
+        },
+        {
+          "index": 277,
+          "prediction": "",
+          "ground_truth": "No."
+        },
+        {
+          "index": 294,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 293,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 291,
+          "prediction": "8.319689511404796",
+          "ground_truth": "$0"
+        },
+        {
+          "index": 287,
+          "prediction": "0.3389588821503663",
+          "ground_truth": "Too low."
+        },
+        {
+          "index": 296,
+          "prediction": "(4, 386, 351, 185, 104)",
+          "ground_truth": "$440"
+        },
+        {
+          "index": 299,
+          "prediction": "0.7792419538787569",
+          "ground_truth": "XA = .7322\nXB = .2678"
+        }
+      ]
+    }
+  },
+  {
+    "epoch": 1,
+    "step": 200,
+    "val_results": {
+      "accuracy": 0.42333333333333334,
+      "correct": 126,
+      "total": 300,
+      "no_answer": 0
+    },
+    "error_log": {
+      "accuracy": 0.42333333333333334,
+      "errors": [
+        {
+          "index": 2,
+          "prediction": "6057123.866439144",
+          "ground_truth": "$1,390,909.66"
+        },
+        {
+          "index": 8,
+          "prediction": "0.08520284958273967",
+          "ground_truth": "0.0663"
+        },
+        {
+          "index": 5,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 0,
+          "prediction": "2.428",
+          "ground_truth": "0.73%"
+        },
+        {
+          "index": 9,
+          "prediction": "18.342917745342017",
+          "ground_truth": "$31.22"
+        },
+        {
+          "index": 4,
+          "prediction": "0.06774688184706364",
+          "ground_truth": ".0848, or 8.48%"
+        },
+        {
+          "index": 3,
+          "prediction": "0.15033333333333335",
+          "ground_truth": ".0685, or 6.85%"
+        },
+        {
+          "index": 10,
+          "prediction": "50281.23398625134",
+          "ground_truth": "$123,048.11"
+        },
+        {
+          "index": 14,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 17,
+          "prediction": "E",
+          "ground_truth": "B"
+        },
+        {
+          "index": 15,
+          "prediction": "992.4208557814138",
+          "ground_truth": "Price = $984.10"
+        },
+        {
+          "index": 12,
+          "prediction": "{'A': 0.0995, 'B': 0.118, 'C': 0.24250000000000002}",
+          "ground_truth": ".0662, or 6.62%"
+        },
+        {
+          "index": 16,
+          "prediction": "",
+          "ground_truth": "0.55"
+        },
+        {
+          "index": 22,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 23,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 24,
+          "prediction": "",
+          "ground_truth": "$4,940"
+        },
+        {
+          "index": 26,
+          "prediction": "5258",
+          "ground_truth": "Use, \u2013$5,258"
+        },
+        {
+          "index": 27,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 30,
+          "prediction": "30.361137743688083",
+          "ground_truth": "37"
+        },
+        {
+          "index": 32,
+          "prediction": "0.10600000000000001",
+          "ground_truth": "11.79%"
+        },
+        {
+          "index": 37,
+          "prediction": "",
+          "ground_truth": "1.13"
+        },
+        {
+          "index": 31,
+          "prediction": "7050000.000000002",
+          "ground_truth": "Yes.Question 5."
+        },
+        {
+          "index": 34,
+          "prediction": "0.16",
+          "ground_truth": "The actually expected return on the stock is 15%.\nThe stock is overpriced."
+        },
+        {
+          "index": 36,
+          "prediction": "5.3824",
+          "ground_truth": "2.32%"
+        },
+        {
+          "index": 43,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 42,
+          "prediction": "-23.817926937504026",
+          "ground_truth": "23.82"
+        },
+        {
+          "index": 46,
+          "prediction": "",
+          "ground_truth": "$119,750"
+        },
+        {
+          "index": 48,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 50,
+          "prediction": "",
+          "ground_truth": "D"
+        },
+        {
+          "index": 45,
+          "prediction": "",
+          "ground_truth": ".1065, or 10.65%"
+        },
+        {
+          "index": 51,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 55,
+          "prediction": "E",
+          "ground_truth": "C"
+        },
+        {
+          "index": 52,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 59,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 56,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 53,
+          "prediction": "0.1",
+          "ground_truth": "E(r_{P})=6%+(\\betaP1 \u00d710%)+(\\betaP2 \u00d75%)"
+        },
+        {
+          "index": 58,
+          "prediction": "",
+          "ground_truth": "DVD"
+        },
+        {
+          "index": 54,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 61,
+          "prediction": "0.16699999999999998",
+          "ground_truth": "17.80%"
+        },
+        {
+          "index": 63,
+          "prediction": "23094",
+          "ground_truth": "Use, \u2013$23,094"
+        },
+        {
+          "index": 67,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 71,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 73,
+          "prediction": "-2.0000000000000004",
+          "ground_truth": "0.167."
+        },
+        {
+          "index": 76,
+          "prediction": "5.247571014528195",
+          "ground_truth": "43.22%"
+        },
+        {
+          "index": 79,
+          "prediction": "227500.0",
+          "ground_truth": "$455,000"
+        },
+        {
+          "index": 80,
+          "prediction": "28.45",
+          "ground_truth": "25.01 years"
+        },
+        {
+          "index": 77,
+          "prediction": "6.000488281250001",
+          "ground_truth": "To find the yield to maturity, solve for y in the following equation: $984.10 = [$60 \u00d7 Annuity factor (y, 3)] + [$1,000 \u00d7 PV factor (y, 3)] This can be solved using a financial calculator to show that y = 6.60%"
+        },
+        {
+          "index": 84,
+          "prediction": "978.2700378739484",
+          "ground_truth": "$949.72"
+        },
+        {
+          "index": 86,
+          "prediction": "21.075",
+          "ground_truth": "13.875, 17.20, 20.80, 21.075, 16.05, and 11.675"
+        },
+        {
+          "index": 87,
+          "prediction": "[0.05000723452090727, 0.0599915056275222, 0.07001110886689532]",
+          "ground_truth": "Maturity 1's YTM is 6.00%,\nMaturity 2's YTM is 5.50%,Maturity 2's forward rate is 5.0%,\nMaturity 1's YTM is 5.67%,Maturity 3's forward rate is 6.0%,\nMaturity 1's YTM is 6.00%,Maturity 4's forward rate is 7.0%"
+        },
+        {
+          "index": 83,
+          "prediction": "-68049.60273972603",
+          "ground_truth": "Yes."
+        },
+        {
+          "index": 85,
+          "prediction": "",
+          "ground_truth": "$22,370,130.74"
+        },
+        {
+          "index": 90,
+          "prediction": "B",
+          "ground_truth": "D"
+        },
+        {
+          "index": 92,
+          "prediction": "-0.5278993503339465",
+          "ground_truth": "\u2013.3105"
+        },
+        {
+          "index": 91,
+          "prediction": "",
+          "ground_truth": "0.65%"
+        },
+        {
+          "index": 93,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 94,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 96,
+          "prediction": "0.26800000000000007",
+          "ground_truth": "19% -> $1900"
+        },
+        {
+          "index": 101,
+          "prediction": "0.181",
+          "ground_truth": ".0610, or 6.10%"
+        },
+        {
+          "index": 97,
+          "prediction": "0.019874327523633283",
+          "ground_truth": "0.0315"
+        },
+        {
+          "index": 103,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 98,
+          "prediction": "",
+          "ground_truth": "6.33%"
+        },
+        {
+          "index": 99,
+          "prediction": "5.789608574091333",
+          "ground_truth": "4.51 years"
+        },
+        {
+          "index": 104,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 110,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 111,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 107,
+          "prediction": "0.277427008463601",
+          "ground_truth": "0.37986"
+        },
+        {
+          "index": 109,
+          "prediction": "46484",
+          "ground_truth": "Source, $46,484"
+        },
+        {
+          "index": 115,
+          "prediction": "18.26909959467078",
+          "ground_truth": ".2043, or 20.43%"
+        },
+        {
+          "index": 112,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 116,
+          "prediction": "E",
+          "ground_truth": "C"
+        },
+        {
+          "index": 121,
+          "prediction": "15",
+          "ground_truth": "14.81 years"
+        },
+        {
+          "index": 119,
+          "prediction": "",
+          "ground_truth": "C"
+        },
+        {
+          "index": 118,
+          "prediction": "D",
+          "ground_truth": "C"
+        },
+        {
+          "index": 122,
+          "prediction": "{'A': 0.0995, 'B': 0.118, 'C': 0.24250000000000002}",
+          "ground_truth": ".0685, or 6.85%"
+        },
+        {
+          "index": 124,
+          "prediction": "",
+          "ground_truth": "$1,240.28"
+        },
+        {
+          "index": 126,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 127,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 125,
+          "prediction": "367",
+          "ground_truth": "665"
+        },
+        {
+          "index": 128,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 130,
+          "prediction": "85142.19999999998",
+          "ground_truth": "$7,583"
+        },
+        {
+          "index": 135,
+          "prediction": "E",
+          "ground_truth": "C"
+        },
+        {
+          "index": 133,
+          "prediction": "-0.06666666666666668",
+          "ground_truth": "5.64%"
+        },
+        {
+          "index": 134,
+          "prediction": "600000",
+          "ground_truth": "options on $100,000 (or 1,000 contracts) \n should be purchased"
+        },
+        {
+          "index": 140,
+          "prediction": "17.647058823529413",
+          "ground_truth": "$10,200"
+        },
+        {
+          "index": 138,
+          "prediction": "[np.float64(21.201259108451502), np.float64(21.544812630678976)]",
+          "ground_truth": "47.78%"
+        },
+        {
+          "index": 137,
+          "prediction": "9.997320842379468",
+          "ground_truth": "0.9996"
+        },
+        {
+          "index": 144,
+          "prediction": "",
+          "ground_truth": "$57,015.31"
+        },
+        {
+          "index": 143,
+          "prediction": "B",
+          "ground_truth": "b."
+        },
+        {
+          "index": 141,
+          "prediction": "[9.019e+01 2.664e+01 1.814e+01 9.000e-02 8.980e+00 7.238e+01 2.895e+01\n 3.941e+01 9.467e+01 5.251e+01 8.026e+01 2.446e+01]",
+          "ground_truth": "Using the regression feature of Excel with the data presented in the text, the first- pass (SCL) estimation results are:<ans_image_1>"
+        },
+        {
+          "index": 147,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 149,
+          "prediction": "462.0",
+          "ground_truth": "Profit/Loss per lb for day 1,2,3 is $0.0002, $0.0013, $0.0057, total value of contract at day 0,1,2,3 is $9714, $9162,$9240, $9582; mark-to-market settle for day 1,2,3 is -$12, $78, $342."
+        },
+        {
+          "index": 148,
+          "prediction": "",
+          "ground_truth": ".0411 or 4.11%"
+        },
+        {
+          "index": 152,
+          "prediction": "0.11460000000000001",
+          "ground_truth": ".1026, or 10.26%"
+        },
+        {
+          "index": 155,
+          "prediction": "75",
+          "ground_truth": "0.9198"
+        },
+        {
+          "index": 153,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 165,
+          "prediction": "76.4423076923077",
+          "ground_truth": "0.9198"
+        },
+        {
+          "index": 161,
+          "prediction": "(0.17391304347826086, 0.8260869565217391, 0.13391304347826086, np.float64(0.13917458538609448))",
+          "ground_truth": "The proportion of the optimal risky portfolio invested in the stock fund is given by:\nW_{S} = 0.4516\nW_{B} = 0.5484\nThe mean and standard deviation of the optimal risky portfolio are: \nE(r_{P}) = 15.61%\n\\delta p = 16.54%"
+        },
+        {
+          "index": 166,
+          "prediction": "",
+          "ground_truth": "E"
+        },
+        {
+          "index": 167,
+          "prediction": "0.012693590000000003",
+          "ground_truth": "0.013767"
+        },
+        {
+          "index": 175,
+          "prediction": "5000",
+          "ground_truth": "Source, $5,000"
+        },
+        {
+          "index": 172,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 170,
+          "prediction": "0.6375838926174497",
+          "ground_truth": "0.78"
+        },
+        {
+          "index": 171,
+          "prediction": "0.6629736043011065",
+          "ground_truth": "2.2673% \u2245 2.27%"
+        },
+        {
+          "index": 177,
+          "prediction": "19.94459833795014",
+          "ground_truth": "20.32 times"
+        },
+        {
+          "index": 183,
+          "prediction": "0.0995",
+          "ground_truth": ".0691, or 6.91%"
+        },
+        {
+          "index": 186,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 180,
+          "prediction": "12455000.0",
+          "ground_truth": "$16,114,285.71"
+        },
+        {
+          "index": 185,
+          "prediction": "5155200.0",
+          "ground_truth": "$6,514,285.71"
+        },
+        {
+          "index": 179,
+          "prediction": "9.600000000000001",
+          "ground_truth": ".2617, or 26.17%"
+        },
+        {
+          "index": 184,
+          "prediction": "",
+          "ground_truth": "Project B"
+        },
+        {
+          "index": 188,
+          "prediction": "740000.0",
+          "ground_truth": "$13,000"
+        },
+        {
+          "index": 190,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 191,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 187,
+          "prediction": "0.13380012690632984",
+          "ground_truth": "Too high."
+        },
+        {
+          "index": 194,
+          "prediction": "(np.float64(30.886669044813065), np.float64(30.906315240201856))",
+          "ground_truth": "46.67%"
+        },
+        {
+          "index": 197,
+          "prediction": "1140",
+          "ground_truth": "Use, \u2013$1,140"
+        },
+        {
+          "index": 195,
+          "prediction": "True",
+          "ground_truth": "NPV = $268,405"
+        },
+        {
+          "index": 204,
+          "prediction": "",
+          "ground_truth": "\\beta_{A} = 2.00\n\\beta_{D} = 0.30"
+        },
+        {
+          "index": 206,
+          "prediction": "",
+          "ground_truth": "Project I"
+        },
+        {
+          "index": 211,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 214,
+          "prediction": "",
+          "ground_truth": "1.24"
+        },
+        {
+          "index": 213,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 215,
+          "prediction": "0.6629736043011065",
+          "ground_truth": "2.133% \u2245 2.13%"
+        },
+        {
+          "index": 217,
+          "prediction": "",
+          "ground_truth": "deepwater fishing project"
+        },
+        {
+          "index": 219,
+          "prediction": "-3600.0",
+          "ground_truth": "$105,300"
+        },
+        {
+          "index": 222,
+          "prediction": "0.06604449454051413",
+          "ground_truth": ".0260, or 2.60%"
+        },
+        {
+          "index": 223,
+          "prediction": "35",
+          "ground_truth": "7.81%"
+        },
+        {
+          "index": 221,
+          "prediction": "",
+          "ground_truth": "$53,858.42"
+        },
+        {
+          "index": 225,
+          "prediction": "",
+          "ground_truth": "$105.30"
+        },
+        {
+          "index": 230,
+          "prediction": "0.06909623528242492",
+          "ground_truth": ".1313, or 13.13%"
+        },
+        {
+          "index": 232,
+          "prediction": "",
+          "ground_truth": "$36,286,957"
+        },
+        {
+          "index": 231,
+          "prediction": "",
+          "ground_truth": "\u2013$2,045.88"
+        },
+        {
+          "index": 235,
+          "prediction": "15.645",
+          "ground_truth": "$46.44"
+        },
+        {
+          "index": 234,
+          "prediction": "",
+          "ground_truth": "board game"
+        },
+        {
+          "index": 238,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 239,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 237,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 240,
+          "prediction": "-1.439999964e+16",
+          "ground_truth": "35.50%"
+        },
+        {
+          "index": 242,
+          "prediction": "",
+          "ground_truth": "13.22%"
+        },
+        {
+          "index": 245,
+          "prediction": "258000",
+          "ground_truth": "$233,666.67"
+        },
+        {
+          "index": 247,
+          "prediction": "6.38",
+          "ground_truth": "4.617"
+        },
+        {
+          "index": 241,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 248,
+          "prediction": "",
+          "ground_truth": "0.56"
+        },
+        {
+          "index": 252,
+          "prediction": "0.0012599399999999998",
+          "ground_truth": "0.001549"
+        },
+        {
+          "index": 255,
+          "prediction": "E",
+          "ground_truth": "B"
+        },
+        {
+          "index": 253,
+          "prediction": "299000.0",
+          "ground_truth": "$125,000"
+        },
+        {
+          "index": 254,
+          "prediction": "-1504000.0",
+          "ground_truth": "$5,804,000"
+        },
+        {
+          "index": 256,
+          "prediction": "333.76000000000005",
+          "ground_truth": "0.04172"
+        },
+        {
+          "index": 251,
+          "prediction": "(0.28, 0.16)",
+          "ground_truth": "E(r_{X})=20%\nE(r_{Y})=10%"
+        },
+        {
+          "index": 259,
+          "prediction": "",
+          "ground_truth": "$46.29"
+        },
+        {
+          "index": 258,
+          "prediction": "",
+          "ground_truth": "$46.58"
+        },
+        {
+          "index": 265,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 263,
+          "prediction": "",
+          "ground_truth": "0.131"
+        },
+        {
+          "index": 264,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 268,
+          "prediction": "5.987603518866692",
+          "ground_truth": "$3.99"
+        },
+        {
+          "index": 269,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 274,
+          "prediction": "E",
+          "ground_truth": "B"
+        },
+        {
+          "index": 272,
+          "prediction": "E",
+          "ground_truth": "B"
+        },
+        {
+          "index": 270,
+          "prediction": "9.998791582007566",
+          "ground_truth": "46.05%"
+        },
+        {
+          "index": 275,
+          "prediction": "33.675444679663244",
+          "ground_truth": "$1.40"
+        },
+        {
+          "index": 276,
+          "prediction": "",
+          "ground_truth": "$75.94"
+        },
+        {
+          "index": 277,
+          "prediction": "1715.0",
+          "ground_truth": "No."
+        },
+        {
+          "index": 279,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 282,
+          "prediction": "0.07999816833043294",
+          "ground_truth": "If one year from now y = 8%, then the bond price will be:\n$1,008.92 \nThe holding period rate of return is:5.16%"
+        },
+        {
+          "index": 288,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 289,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 291,
+          "prediction": "8.319689511404796",
+          "ground_truth": "$0"
+        },
+        {
+          "index": 294,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 292,
+          "prediction": "8.500000000049775",
+          "ground_truth": "The current bond price is:$1,040.20\nThis price implies a yield to maturity of 6.97%, as shown by the following:\n$1,040.17"
+        },
+        {
+          "index": 293,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 287,
+          "prediction": "8.77790850484228e-05",
+          "ground_truth": "Too low."
+        },
+        {
+          "index": 296,
+          "prediction": "2820",
+          "ground_truth": "$440"
+        },
+        {
+          "index": 299,
+          "prediction": "0.7792419538787569",
+          "ground_truth": "XA = .7322\nXB = .2678"
+        }
+      ]
+    }
+  },
+  {
+    "epoch": 1,
+    "step": 300,
+    "val_results": {
+      "accuracy": 0.42333333333333334,
+      "correct": 128,
+      "total": 300,
+      "no_answer": 0
+    },
+    "error_log": {
+      "accuracy": 0.42333333333333334,
+      "errors": [
+        {
+          "index": 5,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 7,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 2,
+          "prediction": "3900000",
+          "ground_truth": "$1,390,909.66"
+        },
+        {
+          "index": 4,
+          "prediction": "0.06774688184706364",
+          "ground_truth": ".0848, or 8.48%"
+        },
+        {
+          "index": 8,
+          "prediction": "848.5947085320124",
+          "ground_truth": "0.0663"
+        },
+        {
+          "index": 3,
+          "prediction": "0.1503333333333333",
+          "ground_truth": ".0685, or 6.85%"
+        },
+        {
+          "index": 9,
+          "prediction": "3.8962660550860626",
+          "ground_truth": "$31.22"
+        },
+        {
+          "index": 0,
+          "prediction": "0.3338539682374527",
+          "ground_truth": "0.73%"
+        },
+        {
+          "index": 12,
+          "prediction": "(np.float64(0.0995), np.float64(0.118), np.float64(0.24249999999999997))",
+          "ground_truth": ".0662, or 6.62%"
+        },
+        {
+          "index": 10,
+          "prediction": "67406.57971890131",
+          "ground_truth": "$123,048.11"
+        },
+        {
+          "index": 14,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 15,
+          "prediction": "",
+          "ground_truth": "Price = $984.10"
+        },
+        {
+          "index": 17,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 16,
+          "prediction": "",
+          "ground_truth": "0.55"
+        },
+        {
+          "index": 18,
+          "prediction": "D",
+          "ground_truth": "E"
+        },
+        {
+          "index": 22,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 23,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 24,
+          "prediction": "",
+          "ground_truth": "$4,940"
+        },
+        {
+          "index": 26,
+          "prediction": "5258",
+          "ground_truth": "Use, \u2013$5,258"
+        },
+        {
+          "index": 27,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 30,
+          "prediction": "30.361137743688083",
+          "ground_truth": "37"
+        },
+        {
+          "index": 31,
+          "prediction": "",
+          "ground_truth": "Yes.Question 5."
+        },
+        {
+          "index": 32,
+          "prediction": "-0.009996427814958023",
+          "ground_truth": "11.79%"
+        },
+        {
+          "index": 38,
+          "prediction": "95000.0",
+          "ground_truth": "Yes."
+        },
+        {
+          "index": 37,
+          "prediction": "",
+          "ground_truth": "1.13"
+        },
+        {
+          "index": 40,
+          "prediction": "-7000",
+          "ground_truth": "\u2013$2,300"
+        },
+        {
+          "index": 43,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 36,
+          "prediction": "1.0900000000000016",
+          "ground_truth": "2.32%"
+        },
+        {
+          "index": 46,
+          "prediction": "125000",
+          "ground_truth": "$119,750"
+        },
+        {
+          "index": 42,
+          "prediction": "-23.817926937504026",
+          "ground_truth": "23.82"
+        },
+        {
+          "index": 45,
+          "prediction": "0.17050000000000004",
+          "ground_truth": ".1065, or 10.65%"
+        },
+        {
+          "index": 48,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 50,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 51,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 52,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 55,
+          "prediction": "E",
+          "ground_truth": "C"
+        },
+        {
+          "index": 54,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 59,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 56,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 58,
+          "prediction": "",
+          "ground_truth": "DVD"
+        },
+        {
+          "index": 53,
+          "prediction": "",
+          "ground_truth": "E(r_{P})=6%+(\\betaP1 \u00d710%)+(\\betaP2 \u00d75%)"
+        },
+        {
+          "index": 61,
+          "prediction": "10.497",
+          "ground_truth": "17.80%"
+        },
+        {
+          "index": 63,
+          "prediction": "31479",
+          "ground_truth": "Use, \u2013$23,094"
+        },
+        {
+          "index": 64,
+          "prediction": "B",
+          "ground_truth": "D"
+        },
+        {
+          "index": 71,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 73,
+          "prediction": "-1.24184264611831",
+          "ground_truth": "0.167."
+        },
+        {
+          "index": 79,
+          "prediction": "205500.0",
+          "ground_truth": "$455,000"
+        },
+        {
+          "index": 77,
+          "prediction": "-0.005314806986207676",
+          "ground_truth": "To find the yield to maturity, solve for y in the following equation: $984.10 = [$60 \u00d7 Annuity factor (y, 3)] + [$1,000 \u00d7 PV factor (y, 3)] This can be solved using a financial calculator to show that y = 6.60%"
+        },
+        {
+          "index": 80,
+          "prediction": "25",
+          "ground_truth": "25.01 years"
+        },
+        {
+          "index": 76,
+          "prediction": "",
+          "ground_truth": "43.22%"
+        },
+        {
+          "index": 84,
+          "prediction": "1022.2126419953297",
+          "ground_truth": "$949.72"
+        },
+        {
+          "index": 83,
+          "prediction": "-68049.60273972603",
+          "ground_truth": "Yes."
+        },
+        {
+          "index": 86,
+          "prediction": "[13.850000000000001, 17.200000000000003, 20.8, 21.08, 16.05, 11.68]",
+          "ground_truth": "13.875, 17.20, 20.80, 21.075, 16.05, and 11.675"
+        },
+        {
+          "index": 85,
+          "prediction": "",
+          "ground_truth": "$22,370,130.74"
+        },
+        {
+          "index": 91,
+          "prediction": "0.02428",
+          "ground_truth": "0.65%"
+        },
+        {
+          "index": 92,
+          "prediction": "-0.5278993503339465",
+          "ground_truth": "\u2013.3105"
+        },
+        {
+          "index": 93,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 94,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 90,
+          "prediction": "C",
+          "ground_truth": "D"
+        },
+        {
+          "index": 96,
+          "prediction": "0.26800000000000007",
+          "ground_truth": "19% -> $1900"
+        },
+        {
+          "index": 99,
+          "prediction": "5.789608574091333",
+          "ground_truth": "4.51 years"
+        },
+        {
+          "index": 101,
+          "prediction": "0.181",
+          "ground_truth": ".0610, or 6.10%"
+        },
+        {
+          "index": 98,
+          "prediction": "0.02897484770532309",
+          "ground_truth": "6.33%"
+        },
+        {
+          "index": 97,
+          "prediction": "",
+          "ground_truth": "0.0315"
+        },
+        {
+          "index": 103,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 107,
+          "prediction": "-13.039456258334896",
+          "ground_truth": "0.37986"
+        },
+        {
+          "index": 108,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 114,
+          "prediction": "A",
+          "ground_truth": "E"
+        },
+        {
+          "index": 116,
+          "prediction": "E",
+          "ground_truth": "C"
+        },
+        {
+          "index": 115,
+          "prediction": "18.26909959467078",
+          "ground_truth": ".2043, or 20.43%"
+        },
+        {
+          "index": 111,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 109,
+          "prediction": "46484",
+          "ground_truth": "Source, $46,484"
+        },
+        {
+          "index": 119,
+          "prediction": "E",
+          "ground_truth": "C"
+        },
+        {
+          "index": 121,
+          "prediction": "15",
+          "ground_truth": "14.81 years"
+        },
+        {
+          "index": 122,
+          "prediction": "[0.0995, 0.118, 0.24250000000000002]",
+          "ground_truth": ".0685, or 6.85%"
+        },
+        {
+          "index": 124,
+          "prediction": "",
+          "ground_truth": "$1,240.28"
+        },
+        {
+          "index": 126,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 125,
+          "prediction": "12000000",
+          "ground_truth": "665"
+        },
+        {
+          "index": 128,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 129,
+          "prediction": "3159.6638655462184",
+          "ground_truth": "$4,700"
+        },
+        {
+          "index": 131,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 134,
+          "prediction": "",
+          "ground_truth": "options on $100,000 (or 1,000 contracts) \n should be purchased"
+        },
+        {
+          "index": 130,
+          "prediction": "82235.19999999995",
+          "ground_truth": "$7,583"
+        },
+        {
+          "index": 133,
+          "prediction": "-0.06666666666666668",
+          "ground_truth": "5.64%"
+        },
+        {
+          "index": 137,
+          "prediction": "3.0",
+          "ground_truth": "0.9996"
+        },
+        {
+          "index": 140,
+          "prediction": "0.17647058823529413",
+          "ground_truth": "$10,200"
+        },
+        {
+          "index": 143,
+          "prediction": "",
+          "ground_truth": "b."
+        },
+        {
+          "index": 138,
+          "prediction": "",
+          "ground_truth": "47.78%"
+        },
+        {
+          "index": 144,
+          "prediction": "",
+          "ground_truth": "$57,015.31"
+        },
+        {
+          "index": 145,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 147,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 141,
+          "prediction": "       Expected Return (%)  Standard Deviation (%)\nA                 9.227500               20.225386\nB                15.841667               35.858289\nC                33.174167               38.205735\nD                19.050000               30.462260\nF                38.898333               24.500505\n3                33.716667               30.160612\nH                32.790000               34.902428\nIndex            11.323333               57.369765",
+          "ground_truth": "Using the regression feature of Excel with the data presented in the text, the first- pass (SCL) estimation results are:<ans_image_1>"
+        },
+        {
+          "index": 152,
+          "prediction": "0.11460000000000001",
+          "ground_truth": ".1026, or 10.26%"
+        },
+        {
+          "index": 149,
+          "prediction": "408.0",
+          "ground_truth": "Profit/Loss per lb for day 1,2,3 is $0.0002, $0.0013, $0.0057, total value of contract at day 0,1,2,3 is $9714, $9162,$9240, $9582; mark-to-market settle for day 1,2,3 is -$12, $78, $342."
+        },
+        {
+          "index": 153,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 155,
+          "prediction": "75",
+          "ground_truth": "0.9198"
+        },
+        {
+          "index": 164,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 161,
+          "prediction": "{'stock_fund_weight': 0.17391304347826086, 'bond_fund_weight': 0.8260869565217391, 'portfolio_return': 0.13391304347826086, 'portfolio_std_dev': np.float64(0.13917458538609448)}",
+          "ground_truth": "The proportion of the optimal risky portfolio invested in the stock fund is given by:\nW_{S} = 0.4516\nW_{B} = 0.5484\nThe mean and standard deviation of the optimal risky portfolio are: \nE(r_{P}) = 15.61%\n\\delta p = 16.54%"
+        },
+        {
+          "index": 167,
+          "prediction": "0.012693590000000003",
+          "ground_truth": "0.013767"
+        },
+        {
+          "index": 165,
+          "prediction": "75.0",
+          "ground_truth": "0.9198"
+        },
+        {
+          "index": 170,
+          "prediction": "0.6375838926174497",
+          "ground_truth": "0.78"
+        },
+        {
+          "index": 172,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 175,
+          "prediction": "5000",
+          "ground_truth": "Source, $5,000"
+        },
+        {
+          "index": 171,
+          "prediction": "0.6629736043011065",
+          "ground_truth": "2.2673% \u2245 2.27%"
+        },
+        {
+          "index": 177,
+          "prediction": "20.210526315789473",
+          "ground_truth": "20.32 times"
+        },
+        {
+          "index": 173,
+          "prediction": "",
+          "ground_truth": "Project A"
+        },
+        {
+          "index": 179,
+          "prediction": "9.600000000000001",
+          "ground_truth": ".2617, or 26.17%"
+        },
+        {
+          "index": 180,
+          "prediction": "13.577777777777778",
+          "ground_truth": "$16,114,285.71"
+        },
+        {
+          "index": 174,
+          "prediction": "205500.0",
+          "ground_truth": "$0"
+        },
+        {
+          "index": 185,
+          "prediction": "11749999.999999996",
+          "ground_truth": "$6,514,285.71"
+        },
+        {
+          "index": 184,
+          "prediction": "",
+          "ground_truth": "Project B"
+        },
+        {
+          "index": 183,
+          "prediction": "",
+          "ground_truth": ".0691, or 6.91%"
+        },
+        {
+          "index": 187,
+          "prediction": "0.13380012690632984",
+          "ground_truth": "Too high."
+        },
+        {
+          "index": 188,
+          "prediction": "37000.0",
+          "ground_truth": "$13,000"
+        },
+        {
+          "index": 190,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 191,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 194,
+          "prediction": "",
+          "ground_truth": "46.67%"
+        },
+        {
+          "index": 195,
+          "prediction": "",
+          "ground_truth": "NPV = $268,405"
+        },
+        {
+          "index": 200,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 202,
+          "prediction": "",
+          "ground_truth": "$197,000"
+        },
+        {
+          "index": 204,
+          "prediction": "(np.float64(3.2857142857142856), np.float64(4.571428571428571))",
+          "ground_truth": "\\beta_{A} = 2.00\n\\beta_{D} = 0.30"
+        },
+        {
+          "index": 206,
+          "prediction": "",
+          "ground_truth": "Project I"
+        },
+        {
+          "index": 214,
+          "prediction": "",
+          "ground_truth": "1.24"
+        },
+        {
+          "index": 215,
+          "prediction": "0.6629736043011065",
+          "ground_truth": "2.133% \u2245 2.13%"
+        },
+        {
+          "index": 217,
+          "prediction": "",
+          "ground_truth": "deepwater fishing project"
+        },
+        {
+          "index": 222,
+          "prediction": "0.06604449454051413",
+          "ground_truth": ".0260, or 2.60%"
+        },
+        {
+          "index": 223,
+          "prediction": "35.0",
+          "ground_truth": "7.81%"
+        },
+        {
+          "index": 221,
+          "prediction": "",
+          "ground_truth": "$53,858.42"
+        },
+        {
+          "index": 225,
+          "prediction": "",
+          "ground_truth": "$105.30"
+        },
+        {
+          "index": 226,
+          "prediction": "Overpriced - Sell/Underweight",
+          "ground_truth": "Firm C\u2019s stock is underpriced, and you should buy it."
+        },
+        {
+          "index": 232,
+          "prediction": "",
+          "ground_truth": "$36,286,957"
+        },
+        {
+          "index": 230,
+          "prediction": "0.10252389189890976",
+          "ground_truth": ".1313, or 13.13%"
+        },
+        {
+          "index": 231,
+          "prediction": "",
+          "ground_truth": "\u2013$2,045.88"
+        },
+        {
+          "index": 234,
+          "prediction": "",
+          "ground_truth": "board game"
+        },
+        {
+          "index": 237,
+          "prediction": "",
+          "ground_truth": "B"
+        },
+        {
+          "index": 238,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 235,
+          "prediction": "",
+          "ground_truth": "$46.44"
+        },
+        {
+          "index": 239,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 242,
+          "prediction": "",
+          "ground_truth": "13.22%"
+        },
+        {
+          "index": 240,
+          "prediction": "0.95",
+          "ground_truth": "35.50%"
+        },
+        {
+          "index": 245,
+          "prediction": "",
+          "ground_truth": "$233,666.67"
+        },
+        {
+          "index": 250,
+          "prediction": "B",
+          "ground_truth": "D"
+        },
+        {
+          "index": 251,
+          "prediction": "(0.28, 0.16)",
+          "ground_truth": "E(r_{X})=20%\nE(r_{Y})=10%"
+        },
+        {
+          "index": 256,
+          "prediction": "333.76000000000005",
+          "ground_truth": "0.04172"
+        },
+        {
+          "index": 247,
+          "prediction": "6.38",
+          "ground_truth": "4.617"
+        },
+        {
+          "index": 253,
+          "prediction": "299000.0",
+          "ground_truth": "$125,000"
+        },
+        {
+          "index": 252,
+          "prediction": "0.0012599399999999998",
+          "ground_truth": "0.001549"
+        },
+        {
+          "index": 255,
+          "prediction": "E",
+          "ground_truth": "B"
+        },
+        {
+          "index": 254,
+          "prediction": "3654000.0",
+          "ground_truth": "$5,804,000"
+        },
+        {
+          "index": 248,
+          "prediction": "0.5730619512757762",
+          "ground_truth": "0.56"
+        },
+        {
+          "index": 263,
+          "prediction": "",
+          "ground_truth": "0.131"
+        },
+        {
+          "index": 260,
+          "prediction": "",
+          "ground_truth": "B"
+        },
+        {
+          "index": 259,
+          "prediction": "",
+          "ground_truth": "$46.29"
+        },
+        {
+          "index": 265,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 264,
+          "prediction": "E",
+          "ground_truth": "B"
+        },
+        {
+          "index": 269,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 270,
+          "prediction": "",
+          "ground_truth": "46.05%"
+        },
+        {
+          "index": 275,
+          "prediction": "",
+          "ground_truth": "$1.40"
+        },
+        {
+          "index": 272,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 274,
+          "prediction": "E",
+          "ground_truth": "B"
+        },
+        {
+          "index": 276,
+          "prediction": "61.07142857142856",
+          "ground_truth": "$75.94"
+        },
+        {
+          "index": 277,
+          "prediction": "1715.0",
+          "ground_truth": "No."
+        },
+        {
+          "index": 282,
+          "prediction": "-0.018522444428740844",
+          "ground_truth": "If one year from now y = 8%, then the bond price will be:\n$1,008.92 \nThe holding period rate of return is:5.16%"
+        },
+        {
+          "index": 284,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 288,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 291,
+          "prediction": "8.319689511404796",
+          "ground_truth": "$0"
+        },
+        {
+          "index": 290,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 287,
+          "prediction": "0.3438506376596876",
+          "ground_truth": "Too low."
+        },
+        {
+          "index": 293,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 292,
+          "prediction": "99.993896484375",
+          "ground_truth": "The current bond price is:$1,040.20\nThis price implies a yield to maturity of 6.97%, as shown by the following:\n$1,040.17"
+        },
+        {
+          "index": 296,
+          "prediction": "470",
+          "ground_truth": "$440"
+        },
+        {
+          "index": 299,
+          "prediction": "0.7792419538787569",
+          "ground_truth": "XA = .7322\nXB = .2678"
+        }
+      ]
+    }
+  },
+  {
+    "epoch": 1,
+    "step": 400,
+    "val_results": {
+      "accuracy": 0.45555555555555555,
+      "correct": 81,
+      "total": 180,
+      "no_answer": 0
+    },
+    "error_log": {
+      "accuracy": 0.45555555555555555,
+      "errors": [
+        {
+          "index": 8,
+          "prediction": "848.5947085320124",
+          "ground_truth": "0.0663"
+        },
+        {
+          "index": 0,
+          "prediction": "0.02428",
+          "ground_truth": "0.73%"
+        },
+        {
+          "index": 5,
+          "prediction": "",
+          "ground_truth": "B"
+        },
+        {
+          "index": 2,
+          "prediction": "6357142.857142857",
+          "ground_truth": "$1,390,909.66"
+        },
+        {
+          "index": 9,
+          "prediction": "27.64857169898482",
+          "ground_truth": "$31.22"
+        },
+        {
+          "index": 3,
+          "prediction": "0.15033333333333335",
+          "ground_truth": ".0685, or 6.85%"
+        },
+        {
+          "index": 4,
+          "prediction": "0.06774688184706364",
+          "ground_truth": ".0848, or 8.48%"
+        },
+        {
+          "index": 10,
+          "prediction": "",
+          "ground_truth": "$123,048.11"
+        },
+        {
+          "index": 12,
+          "prediction": "{'A': 0.0995, 'B': 0.118, 'C': 0.24250000000000002}",
+          "ground_truth": ".0662, or 6.62%"
+        },
+        {
+          "index": 14,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 16,
+          "prediction": "",
+          "ground_truth": "0.55"
+        },
+        {
+          "index": 17,
+          "prediction": "E",
+          "ground_truth": "B"
+        },
+        {
+          "index": 22,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 23,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 27,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 24,
+          "prediction": "",
+          "ground_truth": "$4,940"
+        },
+        {
+          "index": 26,
+          "prediction": "5258",
+          "ground_truth": "Use, \u2013$5,258"
+        },
+        {
+          "index": 30,
+          "prediction": "30.361137743688083",
+          "ground_truth": "37"
+        },
+        {
+          "index": 32,
+          "prediction": "0.0508486000000003",
+          "ground_truth": "11.79%"
+        },
+        {
+          "index": 35,
+          "prediction": "A",
+          "ground_truth": "D"
+        },
+        {
+          "index": 37,
+          "prediction": "",
+          "ground_truth": "1.13"
+        },
+        {
+          "index": 31,
+          "prediction": "",
+          "ground_truth": "Yes.Question 5."
+        },
+        {
+          "index": 34,
+          "prediction": "0.16",
+          "ground_truth": "The actually expected return on the stock is 15%.\nThe stock is overpriced."
+        },
+        {
+          "index": 38,
+          "prediction": "95000.0",
+          "ground_truth": "Yes."
+        },
+        {
+          "index": 36,
+          "prediction": "46.24000000000001",
+          "ground_truth": "2.32%"
+        },
+        {
+          "index": 40,
+          "prediction": "2300.0",
+          "ground_truth": "\u2013$2,300"
+        },
+        {
+          "index": 43,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 45,
+          "prediction": "0.1705",
+          "ground_truth": ".1065, or 10.65%"
+        },
+        {
+          "index": 42,
+          "prediction": "-15.594236989971066",
+          "ground_truth": "23.82"
+        },
+        {
+          "index": 46,
+          "prediction": "125000",
+          "ground_truth": "$119,750"
+        },
+        {
+          "index": 48,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 50,
+          "prediction": "",
+          "ground_truth": "D"
+        },
+        {
+          "index": 51,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 55,
+          "prediction": "E",
+          "ground_truth": "C"
+        },
+        {
+          "index": 54,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 56,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 53,
+          "prediction": "0.1",
+          "ground_truth": "E(r_{P})=6%+(\\betaP1 \u00d710%)+(\\betaP2 \u00d75%)"
+        },
+        {
+          "index": 59,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 58,
+          "prediction": "",
+          "ground_truth": "DVD"
+        },
+        {
+          "index": 63,
+          "prediction": "31479",
+          "ground_truth": "Use, \u2013$23,094"
+        },
+        {
+          "index": 61,
+          "prediction": "-0.0030000000000000027",
+          "ground_truth": "17.80%"
+        },
+        {
+          "index": 64,
+          "prediction": "C",
+          "ground_truth": "D"
+        },
+        {
+          "index": 72,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 73,
+          "prediction": "-0.9931706075828192",
+          "ground_truth": "0.167."
+        },
+        {
+          "index": 71,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 79,
+          "prediction": "-244500.0",
+          "ground_truth": "$455,000"
+        },
+        {
+          "index": 76,
+          "prediction": "4.913743048360108",
+          "ground_truth": "43.22%"
+        },
+        {
+          "index": 77,
+          "prediction": "",
+          "ground_truth": "To find the yield to maturity, solve for y in the following equation: $984.10 = [$60 \u00d7 Annuity factor (y, 3)] + [$1,000 \u00d7 PV factor (y, 3)] This can be solved using a financial calculator to show that y = 6.60%"
+        },
+        {
+          "index": 84,
+          "prediction": "0.04491868545507183",
+          "ground_truth": "$949.72"
+        },
+        {
+          "index": 83,
+          "prediction": "18.39726027397262",
+          "ground_truth": "Yes."
+        },
+        {
+          "index": 86,
+          "prediction": "21.08",
+          "ground_truth": "13.875, 17.20, 20.80, 21.075, 16.05, and 11.675"
+        },
+        {
+          "index": 90,
+          "prediction": "C",
+          "ground_truth": "D"
+        },
+        {
+          "index": 85,
+          "prediction": "",
+          "ground_truth": "$22,370,130.74"
+        },
+        {
+          "index": 93,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 87,
+          "prediction": "(array([0.05999576, 0.05498968, 0.05665432, 0.05997781]), array([0.05000723, 0.05999151, 0.07001111]))",
+          "ground_truth": "Maturity 1's YTM is 6.00%,\nMaturity 2's YTM is 5.50%,Maturity 2's forward rate is 5.0%,\nMaturity 1's YTM is 5.67%,Maturity 3's forward rate is 6.0%,\nMaturity 1's YTM is 6.00%,Maturity 4's forward rate is 7.0%"
+        },
+        {
+          "index": 94,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 91,
+          "prediction": "0.02428",
+          "ground_truth": "0.65%"
+        },
+        {
+          "index": 96,
+          "prediction": "0.26800000000000007",
+          "ground_truth": "19% -> $1900"
+        },
+        {
+          "index": 99,
+          "prediction": "5.789608574091333",
+          "ground_truth": "4.51 years"
+        },
+        {
+          "index": 98,
+          "prediction": "0.04019855212195993",
+          "ground_truth": "6.33%"
+        },
+        {
+          "index": 97,
+          "prediction": "0.022248837726118846",
+          "ground_truth": "0.0315"
+        },
+        {
+          "index": 101,
+          "prediction": "0.181",
+          "ground_truth": ".0610, or 6.10%"
+        },
+        {
+          "index": 107,
+          "prediction": "",
+          "ground_truth": "0.37986"
+        },
+        {
+          "index": 103,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 109,
+          "prediction": "46484",
+          "ground_truth": "Source, $46,484"
+        },
+        {
+          "index": 110,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 115,
+          "prediction": "18.26909959467078",
+          "ground_truth": ".2043, or 20.43%"
+        },
+        {
+          "index": 111,
+          "prediction": "",
+          "ground_truth": "A"
+        },
+        {
+          "index": 116,
+          "prediction": "",
+          "ground_truth": "C"
+        },
+        {
+          "index": 124,
+          "prediction": "",
+          "ground_truth": "$1,240.28"
+        },
+        {
+          "index": 122,
+          "prediction": "[0.0995, 0.118, 0.24250000000000002]",
+          "ground_truth": ".0685, or 6.85%"
+        },
+        {
+          "index": 125,
+          "prediction": "800",
+          "ground_truth": "665"
+        },
+        {
+          "index": 127,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 126,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 128,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 131,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 130,
+          "prediction": "106636.79999999999",
+          "ground_truth": "$7,583"
+        },
+        {
+          "index": 133,
+          "prediction": "",
+          "ground_truth": "5.64%"
+        },
+        {
+          "index": 134,
+          "prediction": "113",
+          "ground_truth": "options on $100,000 (or 1,000 contracts) \n should be purchased"
+        },
+        {
+          "index": 138,
+          "prediction": "12.241282508274507",
+          "ground_truth": "47.78%"
+        },
+        {
+          "index": 137,
+          "prediction": "9.93893406252375",
+          "ground_truth": "0.9996"
+        },
+        {
+          "index": 140,
+          "prediction": "17.647058823529413",
+          "ground_truth": "$10,200"
+        },
+        {
+          "index": 144,
+          "prediction": "",
+          "ground_truth": "$57,015.31"
+        },
+        {
+          "index": 145,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 143,
+          "prediction": "B",
+          "ground_truth": "b."
+        },
+        {
+          "index": 147,
+          "prediction": "E",
+          "ground_truth": "D"
+        },
+        {
+          "index": 141,
+          "prediction": "       Beta      Alpha  R-squared   P-value  Standard Error\nA -0.016381   9.960107   0.000694  0.935220        0.196536\nB  0.281992   3.230054   0.065449  0.422223        0.336966\nC  0.191411  24.613630   0.026564  0.612779        0.366419\nD -0.389277  36.459772   0.172823  0.178932        0.269313\nF  0.130875  33.045160   0.030198  0.589109        0.234537",
+          "ground_truth": "Using the regression feature of Excel with the data presented in the text, the first- pass (SCL) estimation results are:<ans_image_1>"
+        },
+        {
+          "index": 149,
+          "prediction": "461.9999999999991",
+          "ground_truth": "Profit/Loss per lb for day 1,2,3 is $0.0002, $0.0013, $0.0057, total value of contract at day 0,1,2,3 is $9714, $9162,$9240, $9582; mark-to-market settle for day 1,2,3 is -$12, $78, $342."
+        },
+        {
+          "index": 153,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 152,
+          "prediction": "0.11460000000000001",
+          "ground_truth": ".1026, or 10.26%"
+        },
+        {
+          "index": 155,
+          "prediction": "81.53846153846153",
+          "ground_truth": "0.9198"
+        },
+        {
+          "index": 164,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 161,
+          "prediction": "",
+          "ground_truth": "The proportion of the optimal risky portfolio invested in the stock fund is given by:\nW_{S} = 0.4516\nW_{B} = 0.5484\nThe mean and standard deviation of the optimal risky portfolio are: \nE(r_{P}) = 15.61%\n\\delta p = 16.54%"
+        },
+        {
+          "index": 165,
+          "prediction": "81.53846153846155",
+          "ground_truth": "0.9198"
+        },
+        {
+          "index": 170,
+          "prediction": "0.5950782997762861",
+          "ground_truth": "0.78"
+        },
+        {
+          "index": 175,
+          "prediction": "5000",
+          "ground_truth": "Source, $5,000"
+        },
+        {
+          "index": 177,
+          "prediction": "20.210526315789473",
+          "ground_truth": "20.32 times"
+        },
+        {
+          "index": 179,
+          "prediction": "9.600000000000001",
+          "ground_truth": ".2617, or 26.17%"
+        },
+        {
+          "index": 171,
+          "prediction": "0.006629736043011065",
+          "ground_truth": "2.2673% \u2245 2.27%"
+        }
+      ]
+    }
+  }
+]

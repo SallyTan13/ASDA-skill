@@ -1,0 +1,2017 @@
+[
+  {
+    "epoch": 1,
+    "step": 100,
+    "val_results": {
+      "accuracy": 0.49603174603174605,
+      "correct": 121,
+      "total": 252,
+      "no_answer": 0
+    },
+    "error_log": {
+      "accuracy": 0.49603174603174605,
+      "errors": [
+        {
+          "index": 6,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 8,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 2,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 12,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 13,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 11,
+          "prediction": "B. 5.62%",
+          "ground_truth": "B"
+        },
+        {
+          "index": 15,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 14,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 20,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 1,
+          "prediction": "Put",
+          "ground_truth": "Yes."
+        },
+        {
+          "index": 3,
+          "prediction": "0",
+          "ground_truth": "0"
+        },
+        {
+          "index": 9,
+          "prediction": "Insufficient information to determine the exact relationship",
+          "ground_truth": "$c_{2} \\le 0.5(c_{1}+c_{3})$"
+        },
+        {
+          "index": 22,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 23,
+          "prediction": "C. Property",
+          "ground_truth": "C"
+        },
+        {
+          "index": 24,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 19,
+          "prediction": "All initial investments make Project Billion more financially attractive",
+          "ground_truth": "less than $1,890.32"
+        },
+        {
+          "index": 25,
+          "prediction": "DVD",
+          "ground_truth": "board game"
+        },
+        {
+          "index": 26,
+          "prediction": "Cannot definitively determine without more advanced option pricing calculations",
+          "ground_truth": "Yes"
+        },
+        {
+          "index": 30,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 33,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 31,
+          "prediction": "450000",
+          "ground_truth": "$1,355,000"
+        },
+        {
+          "index": 35,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 34,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 38,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 32,
+          "prediction": "41%",
+          "ground_truth": "The hurdle rate is determined by the project beta (0.3), not the firm\u2019s beta. The correct discount rate is 8.7%, the fair rate of return for stock D."
+        },
+        {
+          "index": 42,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 43,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 36,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 51,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 41,
+          "prediction": "917.40",
+          "ground_truth": "you will have to deposit $917.40 in cash or securities."
+        },
+        {
+          "index": 54,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 44,
+          "prediction": "910000",
+          "ground_truth": "$1,810,000"
+        },
+        {
+          "index": 46,
+          "prediction": "Cleveland Compressor",
+          "ground_truth": "Pnew York Pneumatic."
+        },
+        {
+          "index": 40,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 50,
+          "prediction": "Possible",
+          "ground_truth": "Not possible."
+        },
+        {
+          "index": 52,
+          "prediction": "9.90%",
+          "ground_truth": "WACC computed with target weights"
+        },
+        {
+          "index": 47,
+          "prediction": "Insufficient information to determine payback period",
+          "ground_truth": "solvent prepeg"
+        },
+        {
+          "index": 65,
+          "prediction": "The two equations are:\\n1. $\\\\Delta_0 S_1(H) + X_0(1+r) = V_1(H)$\\n2. $\\\\Delta_0 S_1(T) + X_0(1+r) = V_1(T)$",
+          "ground_truth": "$X_0 + \\Delta_0 \\left( \\frac{1}{1 + r} S_1(H) - S_0 \\right) = \\frac{1}{1 + r} V_1(H)$,\n$X_0 + \\Delta_0 \\left( \\frac{1}{1 + r} S_1(T) - S_0 \\right) = \\frac{1}{1 + r} V_1(T)$."
+        },
+        {
+          "index": 68,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 67,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 64,
+          "prediction": "D",
+          "ground_truth": "B"
+        },
+        {
+          "index": 71,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 72,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 66,
+          "prediction": "Pnew York Pneumatic's current assets are primarily financed through equity, with a smaller portion coming from current liabilities and bank loans.",
+          "ground_truth": "By current liabilities."
+        },
+        {
+          "index": 79,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 85,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 74,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 82,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 88,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 89,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 78,
+          "prediction": "Smith's method uses option price theory and Monte Carlo simulations to demonstrate that increasing private equity allocation can enhance portfolio expected returns from 7.8% to 8.3%, marginally improve risk-adjusted returns, and reduce the probability of significant purchasing power erosion, making it an attractive strategic adjustment for the endowment.",
+          "ground_truth": "Private equity is recognized as an illiquid alternative investment and may offer higher returns via a liquidity premium. The illiquidity premium (also called the liquidity premium) is the expected compensation for the additional risk of tying up capital for a potentially uncertain time period. It can be estimated, as Smith has done, by using the idea that the size of a discount an investor should receive for such capital commitment is represented by the value of a put option with an exercise price equal to the hypothetical \u201cmarketable price\u201d of the illiquid asset as estimated at the time of purchase. Smith can derive the price of the illiquid private equity asset by subtracting the put price from the \u201cmarketable price.\u201d If both the \u201cmarketable price\u201d and the illiquid asset price are estimated or known, then the expected return for each can be calculated, with the difference in expected returns representing the illiquidity premium (in %)."
+        },
+        {
+          "index": 91,
+          "prediction": "450000",
+          "ground_truth": "$900,000"
+        },
+        {
+          "index": 90,
+          "prediction": "Cannot determine with given information",
+          "ground_truth": "2.537"
+        },
+        {
+          "index": 94,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 93,
+          "prediction": "The project has a positive NPV, meaning it creates value for Hand Clapper, Inc. The specific numerical NPV would require precise discounting of each year's cash flows.",
+          "ground_truth": "$1,411,645.54"
+        },
+        {
+          "index": 102,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 100,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 101,
+          "prediction": "Insufficient information to compute E\u2082[M\u2083] precisely. More details about the probability measure and complete path probabilities are needed to resolve the calculation.",
+          "ground_truth": "$\\mathbb{E}_2[M_3](TH)=6\\frac{2}{3}, \\mathbb{E}_2[M_3](TT)=4$. $M_n$ is not Markov."
+        },
+        {
+          "index": 108,
+          "prediction": "16,640",
+          "ground_truth": "16,640.50, or about 16,641 units"
+        },
+        {
+          "index": 106,
+          "prediction": "Insufficient information to precisely calculate the abandonment option value",
+          "ground_truth": "$390"
+        },
+        {
+          "index": 109,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 113,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 110,
+          "prediction": "Your stop-loss order is a pending sell order that will execute a market sell when the price drops to $20, but it is NOT currently being executed.",
+          "ground_truth": "The broker is instructed to attempt to sell your Marriott stock as soon as the Marriott stock trades at a bid price of $20 or less. Here, the broker will attempt to execute, but may not be able to sell at $20, since the bid price is now $19.95. The price at which you sell may be more or less than $20 because the stop-loss becomes a market order to sell at current market prices."
+        },
+        {
+          "index": 116,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 121,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 125,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 127,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 112,
+          "prediction": "Higher",
+          "ground_truth": "Adding the risk-free government securities would result in a lower beta for the new portfolio."
+        },
+        {
+          "index": 126,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 122,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 132,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 123,
+          "prediction": "Insufficient information to compute the exact values",
+          "ground_truth": "$\\mathbb{E}_1[\\mathbb{E}_2[S_3]](H)=18, \\mathbb{E}_1[\\mathbb{E}_2[S_3]](H)=4.5$"
+        },
+        {
+          "index": 128,
+          "prediction": "Inconclusive",
+          "ground_truth": "Rejects."
+        },
+        {
+          "index": 131,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 143,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 141,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 149,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 153,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 136,
+          "prediction": "All situations are POSSIBLE under the simple CAPM framework",
+          "ground_truth": "Not possible. "
+        },
+        {
+          "index": 151,
+          "prediction": "B",
+          "ground_truth": "Kay should recommend Stock Y."
+        },
+        {
+          "index": 146,
+          "prediction": "Project A",
+          "ground_truth": "Project B"
+        },
+        {
+          "index": 158,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 161,
+          "prediction": "null",
+          "ground_truth": "6.474"
+        },
+        {
+          "index": 148,
+          "prediction": "Yes, all call options are in the money",
+          "ground_truth": "Yes."
+        },
+        {
+          "index": 156,
+          "prediction": "None of the statements are incorrect. All three descriptions match their respective financial characteristics.",
+          "ground_truth": "B"
+        },
+        {
+          "index": 163,
+          "prediction": "25,560 abalones",
+          "ground_truth": "20,596.68, or about 20,597 units"
+        },
+        {
+          "index": 164,
+          "prediction": "Insufficient information to calculate exact option value",
+          "ground_truth": "$1.16"
+        },
+        {
+          "index": 167,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 166,
+          "prediction": "Cannot definitively calculate without the initial bond price",
+          "ground_truth": "6.66%"
+        },
+        {
+          "index": 175,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 174,
+          "prediction": "Stock A: 30%, Stock B: 40%",
+          "ground_truth": "\u03c3A = 34.78%\n\u03c3B = 47.93%"
+        },
+        {
+          "index": 176,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 171,
+          "prediction": "\u03bb = (\u03bc_S - r) / \u03c3_S",
+          "ground_truth": "$\\rho_{SP}\\sigma{P}$"
+        },
+        {
+          "index": 169,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 173,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 181,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 172,
+          "prediction": "0.0206 or 2.06%",
+          "ground_truth": ".0461, or 4.61%"
+        },
+        {
+          "index": 182,
+          "prediction": "$450,000",
+          "ground_truth": "$900,000"
+        },
+        {
+          "index": 179,
+          "prediction": "Insufficient information to calculate the complete Adjusted Present Value. More details about the unlevered cost of capital and tax shield calculations are required.",
+          "ground_truth": "$2,713,293.68"
+        },
+        {
+          "index": 184,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 186,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 190,
+          "prediction": "0.0103",
+          "ground_truth": ".0162, or 1.62%"
+        },
+        {
+          "index": 194,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 198,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 196,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 192,
+          "prediction": "",
+          "ground_truth": "B"
+        },
+        {
+          "index": 189,
+          "prediction": "B",
+          "ground_truth": "d"
+        },
+        {
+          "index": 185,
+          "prediction": "{\n    \"a\": \"iv. Conservatism bias\"",
+          "ground_truth": "a. \u2013 iv\nb. \u2013 iii\nc. \u2013 v\nd. \u2013 i\ne. \u2013 ii"
+        },
+        {
+          "index": 201,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 208,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 205,
+          "prediction": "1,135,000",
+          "ground_truth": "$1,135,000"
+        },
+        {
+          "index": 215,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 210,
+          "prediction": "5.39%",
+          "ground_truth": "0.0609"
+        },
+        {
+          "index": 212,
+          "prediction": "C",
+          "ground_truth": "c."
+        },
+        {
+          "index": 218,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 219,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 221,
+          "prediction": "Project Z",
+          "ground_truth": "X"
+        },
+        {
+          "index": 214,
+          "prediction": "Tax Lot C",
+          "ground_truth": "Tax Lot B"
+        },
+        {
+          "index": 229,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 230,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 225,
+          "prediction": "Inconclusive",
+          "ground_truth": "Supports."
+        },
+        {
+          "index": 232,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 234,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 223,
+          "prediction": "d < 1+r < u",
+          "ground_truth": "$0 < d < 1 + r < u $"
+        },
+        {
+          "index": 236,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 238,
+          "prediction": "Incomplete calculation due to missing implementation cost details. A full NPV requires total implementation cost, annual benefits, and system lifespan.",
+          "ground_truth": "$38,950"
+        },
+        {
+          "index": 239,
+          "prediction": "Cannot conclusively determine without seeing the actual regression lines",
+          "ground_truth": "Stock B\u2019s systematic risk is greater."
+        },
+        {
+          "index": 246,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 248,
+          "prediction": "null",
+          "ground_truth": "B"
+        },
+        {
+          "index": 244,
+          "prediction": "{\n        \"p_tilde\": \"(1+r) - d / (u-d)\"",
+          "ground_truth": "$\\tilde{p} = \\frac{1+r-d}{u-d}$, $\\tilde{q} = \\frac{u-1-r}{u-d}$."
+        },
+        {
+          "index": 251,
+          "prediction": "A",
+          "ground_truth": "B"
+        }
+      ]
+    }
+  },
+  {
+    "epoch": 1,
+    "step": 200,
+    "val_results": {
+      "accuracy": 0.47619047619047616,
+      "correct": 120,
+      "total": 252,
+      "no_answer": 0
+    },
+    "error_log": {
+      "accuracy": 0.47619047619047616,
+      "errors": [
+        {
+          "index": 6,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 8,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 0,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 1,
+          "prediction": "Insufficient information to conclusively determine which option has larger time value",
+          "ground_truth": "Yes."
+        },
+        {
+          "index": 9,
+          "prediction": "Insufficient information to determine the exact relationship between c\u2081, c\u2082, and c\u2083",
+          "ground_truth": "$c_{2} \\le 0.5(c_{1}+c_{3})$"
+        },
+        {
+          "index": 12,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 14,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 13,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 19,
+          "prediction": "All initial investment levels",
+          "ground_truth": "less than $1,890.32"
+        },
+        {
+          "index": 20,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 22,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 26,
+          "prediction": "Cannot definitively determine without additional option valuation framework",
+          "ground_truth": "Yes"
+        },
+        {
+          "index": 25,
+          "prediction": "DVD Project (based on larger cash flows suggesting faster payback)",
+          "ground_truth": "board game"
+        },
+        {
+          "index": 29,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 30,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 33,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 34,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 32,
+          "prediction": "Use the defensive stock's beta to calculate the hurdle rate for the aggressive firm's project",
+          "ground_truth": "The hurdle rate is determined by the project beta (0.3), not the firm\u2019s beta. The correct discount rate is 8.7%, the fair rate of return for stock D."
+        },
+        {
+          "index": 35,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 36,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 40,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 46,
+          "prediction": "Cleveland Compressor",
+          "ground_truth": "Pnew York Pneumatic."
+        },
+        {
+          "index": 47,
+          "prediction": "Insufficient information to determine payback period",
+          "ground_truth": "solvent prepeg"
+        },
+        {
+          "index": 51,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 50,
+          "prediction": "Possible",
+          "ground_truth": "Not possible."
+        },
+        {
+          "index": 53,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 54,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 52,
+          "prediction": "9.90%",
+          "ground_truth": "WACC computed with target weights"
+        },
+        {
+          "index": 64,
+          "prediction": "D",
+          "ground_truth": "B"
+        },
+        {
+          "index": 63,
+          "prediction": "No clear expectation of higher return; Portfolio A offers more variability but not guaranteed higher systematic returns",
+          "ground_truth": "Under the CAPM, the only risk that investors are compensated for bearing is the risk that cannot be diversified away (systematic risk)."
+        },
+        {
+          "index": 68,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 65,
+          "prediction": "$X_0(1+r) + \\Delta_0S_0u = V_1(H)$ and $X_0(1+r) + \\Delta_0S_0d = V_1(T)$",
+          "ground_truth": "$X_0 + \\Delta_0 \\left( \\frac{1}{1 + r} S_1(H) - S_0 \\right) = \\frac{1}{1 + r} V_1(H)$,\n$X_0 + \\Delta_0 \\left( \\frac{1}{1 + r} S_1(T) - S_0 \\right) = \\frac{1}{1 + r} V_1(T)$."
+        },
+        {
+          "index": 66,
+          "prediction": "Pnew York Pneumatic's current assets are primarily financed through equity (80.2%), with a smaller portion from current liabilities (19.8%).",
+          "ground_truth": "By current liabilities."
+        },
+        {
+          "index": 72,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 74,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 71,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 76,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 78,
+          "prediction": "Smith uses option price theory and Monte Carlo simulations to model how increased private equity allocation can improve portfolio return expectations while carefully managing risk, demonstrating a sophisticated goals-based asset allocation approach.",
+          "ground_truth": "Private equity is recognized as an illiquid alternative investment and may offer higher returns via a liquidity premium. The illiquidity premium (also called the liquidity premium) is the expected compensation for the additional risk of tying up capital for a potentially uncertain time period. It can be estimated, as Smith has done, by using the idea that the size of a discount an investor should receive for such capital commitment is represented by the value of a put option with an exercise price equal to the hypothetical \u201cmarketable price\u201d of the illiquid asset as estimated at the time of purchase. Smith can derive the price of the illiquid private equity asset by subtracting the put price from the \u201cmarketable price.\u201d If both the \u201cmarketable price\u201d and the illiquid asset price are estimated or known, then the expected return for each can be calculated, with the difference in expected returns representing the illiquidity premium (in %)."
+        },
+        {
+          "index": 80,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 82,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 85,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 89,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 88,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 83,
+          "prediction": "Construct a zero-beta portfolio by combining securities A and B in proportions that neutralize systematic risk, then exploit the resulting risk-free arbitrage opportunity by generating returns inconsistent with the standard SML relationship.",
+          "ground_truth": "We can choose weights such that \\beta_{P} = \\beta_{C} but with expected return higher than that of Portfolio C. Hence, combining P with a short position in C will create an arbitrage portfolio with zero investment, zero beta, and positive rate of return."
+        },
+        {
+          "index": 94,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 93,
+          "prediction": "Insufficient information to calculate exact NPV",
+          "ground_truth": "$1,411,645.54"
+        },
+        {
+          "index": 96,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 97,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 90,
+          "prediction": "Insufficient information to definitively calculate the option value",
+          "ground_truth": "2.537"
+        },
+        {
+          "index": 100,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 105,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 102,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 101,
+          "prediction": "Insufficient information to solve completely. Additional stochastic process theory and computational guidance is required.",
+          "ground_truth": "$\\mathbb{E}_2[M_3](TH)=6\\frac{2}{3}, \\mathbb{E}_2[M_3](TT)=4$. $M_n$ is not Markov."
+        },
+        {
+          "index": 104,
+          "prediction": "cc + Ke^(-rT1) = pc + Se^(-qT1)",
+          "ground_truth": "$cc+K_1 e^{-rT_1} = pc+c$"
+        },
+        {
+          "index": 106,
+          "prediction": "Cannot determine abandonment option value with provided information",
+          "ground_truth": "$390"
+        },
+        {
+          "index": 108,
+          "prediction": "16,640 abalone units",
+          "ground_truth": "16,640.50, or about 16,641 units"
+        },
+        {
+          "index": 109,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 110,
+          "prediction": "The stop-loss order will NOT be executed at this time, as the current market price is below the $20 trigger point.",
+          "ground_truth": "The broker is instructed to attempt to sell your Marriott stock as soon as the Marriott stock trades at a bid price of $20 or less. Here, the broker will attempt to execute, but may not be able to sell at $20, since the bid price is now $19.95. The price at which you sell may be more or less than $20 because the stop-loss becomes a market order to sell at current market prices."
+        },
+        {
+          "index": 113,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 112,
+          "prediction": "Higher",
+          "ground_truth": "Adding the risk-free government securities would result in a lower beta for the new portfolio."
+        },
+        {
+          "index": 116,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 115,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 121,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 123,
+          "prediction": "E1[E2[S3]](H) = 16, E1[E2[S3]](T) = 4.56",
+          "ground_truth": "$\\mathbb{E}_1[\\mathbb{E}_2[S_3]](H)=18, \\mathbb{E}_1[\\mathbb{E}_2[S_3]](H)=4.5$"
+        },
+        {
+          "index": 127,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 125,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 126,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 128,
+          "prediction": "Inconclusive (requires visual examination of the actual CAR plots)",
+          "ground_truth": "Rejects."
+        },
+        {
+          "index": 132,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 130,
+          "prediction": "$42.05",
+          "ground_truth": "zero"
+        },
+        {
+          "index": 134,
+          "prediction": "Cannot definitively determine consistency without additional information about the cost of capital and complete cash flow details.",
+          "ground_truth": "Yes"
+        },
+        {
+          "index": 141,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 143,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 146,
+          "prediction": "Project A",
+          "ground_truth": "Project B"
+        },
+        {
+          "index": 149,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 150,
+          "prediction": "B. Yes",
+          "ground_truth": "B"
+        },
+        {
+          "index": 151,
+          "prediction": "Portfolio B",
+          "ground_truth": "Kay should recommend Stock Y."
+        },
+        {
+          "index": 153,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 152,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 154,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 158,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 157,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 156,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 165,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 162,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 161,
+          "prediction": "null",
+          "ground_truth": "6.474"
+        },
+        {
+          "index": 164,
+          "prediction": "Incomplete solution - more specific parameters needed to complete the binomial option pricing calculation",
+          "ground_truth": "$1.16"
+        },
+        {
+          "index": 163,
+          "prediction": "Approximately 16,640 abalone per year to break even",
+          "ground_truth": "20,596.68, or about 20,597 units"
+        },
+        {
+          "index": 169,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 166,
+          "prediction": "Incomplete calculation due to missing critical information",
+          "ground_truth": "6.66%"
+        },
+        {
+          "index": 171,
+          "prediction": "(\u03bc_S - q) / \u03c3_S",
+          "ground_truth": "$\\rho_{SP}\\sigma{P}$"
+        },
+        {
+          "index": 172,
+          "prediction": "0.0535",
+          "ground_truth": ".0461, or 4.61%"
+        },
+        {
+          "index": 173,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 174,
+          "prediction": "I cannot provide the exact standard deviations without performing the final calculations, but the method for deriving them is shown in the reasoning.",
+          "ground_truth": "\u03c3A = 34.78%\n\u03c3B = 47.93%"
+        },
+        {
+          "index": 175,
+          "prediction": "B. Duration matching",
+          "ground_truth": "B"
+        },
+        {
+          "index": 176,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 180,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 179,
+          "prediction": "Cannot calculate APV with provided information. Need unlevered cost of capital and complete cash flow details.",
+          "ground_truth": "$2,713,293.68"
+        },
+        {
+          "index": 183,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 181,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 185,
+          "prediction": "a. iv, b. iii, c. v, d. ii, e. i",
+          "ground_truth": "a. \u2013 iv\nb. \u2013 iii\nc. \u2013 v\nd. \u2013 i\ne. \u2013 ii"
+        },
+        {
+          "index": 182,
+          "prediction": "$455,000",
+          "ground_truth": "$900,000"
+        },
+        {
+          "index": 184,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 187,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 189,
+          "prediction": "C",
+          "ground_truth": "d"
+        },
+        {
+          "index": 190,
+          "prediction": "0.0161",
+          "ground_truth": ".0162, or 1.62%"
+        },
+        {
+          "index": 192,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 194,
+          "prediction": "C. Two",
+          "ground_truth": "B"
+        },
+        {
+          "index": 196,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 199,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 200,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 201,
+          "prediction": "C. University endowment",
+          "ground_truth": "A"
+        },
+        {
+          "index": 208,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 210,
+          "prediction": "5.389%",
+          "ground_truth": "0.0609"
+        },
+        {
+          "index": 212,
+          "prediction": "C",
+          "ground_truth": "c."
+        },
+        {
+          "index": 215,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 214,
+          "prediction": "C",
+          "ground_truth": "Tax Lot B"
+        },
+        {
+          "index": 218,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 219,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 221,
+          "prediction": "Projects W and Z",
+          "ground_truth": "X"
+        },
+        {
+          "index": 229,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 225,
+          "prediction": "Inconclusive",
+          "ground_truth": "Supports."
+        },
+        {
+          "index": 231,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 234,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 232,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 236,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 238,
+          "prediction": "Insufficient information to calculate complete NPV. Need initial investment amount to perform full NPV analysis.",
+          "ground_truth": "$38,950"
+        },
+        {
+          "index": 239,
+          "prediction": "Stock A",
+          "ground_truth": "Stock B\u2019s systematic risk is greater."
+        },
+        {
+          "index": 240,
+          "prediction": "B. Asgard",
+          "ground_truth": "C"
+        },
+        {
+          "index": 246,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 248,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 251,
+          "prediction": "A",
+          "ground_truth": "B"
+        }
+      ]
+    }
+  },
+  {
+    "epoch": 1,
+    "step": 300,
+    "val_results": {
+      "accuracy": 0.4801587301587302,
+      "correct": 121,
+      "total": 252,
+      "no_answer": 0
+    },
+    "error_log": {
+      "accuracy": 0.4801587301587302,
+      "errors": [
+        {
+          "index": 1,
+          "prediction": "Put",
+          "ground_truth": "Yes."
+        },
+        {
+          "index": 2,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 9,
+          "prediction": "Cannot be determined with the given information",
+          "ground_truth": "$c_{2} \\le 0.5(c_{1}+c_{3})$"
+        },
+        {
+          "index": 6,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 11,
+          "prediction": "B. 5.62%",
+          "ground_truth": "B"
+        },
+        {
+          "index": 12,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 17,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 15,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 14,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 13,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 20,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 24,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 22,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 19,
+          "prediction": "Project Billion is more financially attractive for initial investments ranging from its original $10 up to approximately $10,000, beyond which Project Million would become preferable.",
+          "ground_truth": "less than $1,890.32"
+        },
+        {
+          "index": 26,
+          "prediction": "Cannot be conclusively determined without advanced option pricing calculations, but early exercise is possible due to dividend impacts.",
+          "ground_truth": "Yes"
+        },
+        {
+          "index": 29,
+          "prediction": "B. sell nine US E-mini equity futures contracts",
+          "ground_truth": "C"
+        },
+        {
+          "index": 27,
+          "prediction": "Fund C",
+          "ground_truth": "Fund D"
+        },
+        {
+          "index": 32,
+          "prediction": "The hurdle rate should be the CAPM required return calculated using the defensive stock's beta, not the aggressive firm's typical cost of capital.",
+          "ground_truth": "The hurdle rate is determined by the project beta (0.3), not the firm\u2019s beta. The correct discount rate is 8.7%, the fair rate of return for stock D."
+        },
+        {
+          "index": 34,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 35,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 36,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 40,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 39,
+          "prediction": "C. A+",
+          "ground_truth": "C"
+        },
+        {
+          "index": 38,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 37,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 42,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 49,
+          "prediction": "A. on all income earned worldwide",
+          "ground_truth": "A"
+        },
+        {
+          "index": 51,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 46,
+          "prediction": "Cleveland Compressor",
+          "ground_truth": "Pnew York Pneumatic."
+        },
+        {
+          "index": 47,
+          "prediction": "Dry Prepreg",
+          "ground_truth": "solvent prepeg"
+        },
+        {
+          "index": 50,
+          "prediction": "Possible",
+          "ground_truth": "Not possible."
+        },
+        {
+          "index": 52,
+          "prediction": "9.90%",
+          "ground_truth": "WACC computed with target weights"
+        },
+        {
+          "index": 54,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 68,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 71,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 66,
+          "prediction": "Pnew York Pneumatic's current assets are primarily financed through shareholders' equity (80.2%) and to a lesser extent through current liabilities (19.8%).",
+          "ground_truth": "By current liabilities."
+        },
+        {
+          "index": 65,
+          "prediction": "X_0(1+r) + \u0394_0*S_1(H) = V_1(H)\nX_0(1+r) + \u0394_0*S_1(T) = V_1(T)",
+          "ground_truth": "$X_0 + \\Delta_0 \\left( \\frac{1}{1 + r} S_1(H) - S_0 \\right) = \\frac{1}{1 + r} V_1(H)$,\n$X_0 + \\Delta_0 \\left( \\frac{1}{1 + r} S_1(T) - S_0 \\right) = \\frac{1}{1 + r} V_1(T)$."
+        },
+        {
+          "index": 72,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 74,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 82,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 81,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 85,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 78,
+          "prediction": "Smith's method uses option price theory and Monte Carlo simulations to estimate a 0.5% increase in expected returns by increasing private equity allocation, while marginally improving the portfolio's risk-adjusted characteristics and reducing the probability of significant purchasing power erosion.",
+          "ground_truth": "Private equity is recognized as an illiquid alternative investment and may offer higher returns via a liquidity premium. The illiquidity premium (also called the liquidity premium) is the expected compensation for the additional risk of tying up capital for a potentially uncertain time period. It can be estimated, as Smith has done, by using the idea that the size of a discount an investor should receive for such capital commitment is represented by the value of a put option with an exercise price equal to the hypothetical \u201cmarketable price\u201d of the illiquid asset as estimated at the time of purchase. Smith can derive the price of the illiquid private equity asset by subtracting the put price from the \u201cmarketable price.\u201d If both the \u201cmarketable price\u201d and the illiquid asset price are estimated or known, then the expected return for each can be calculated, with the difference in expected returns representing the illiquidity premium (in %)."
+        },
+        {
+          "index": 88,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 89,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 83,
+          "prediction": "Construct a zero-beta portfolio combining securities A and B, then compare its expected return to security C to identify and exploit any risk-free arbitrage opportunities.",
+          "ground_truth": "We can choose weights such that \\beta_{P} = \\beta_{C} but with expected return higher than that of Portfolio C. Hence, combining P with a short position in C will create an arbitrage portfolio with zero investment, zero beta, and positive rate of return."
+        },
+        {
+          "index": 90,
+          "prediction": "Cannot definitively calculate without additional context and complete option pricing methodology",
+          "ground_truth": "2.537"
+        },
+        {
+          "index": 94,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 96,
+          "prediction": "A. No, because additional holdings data are required",
+          "ground_truth": "A"
+        },
+        {
+          "index": 93,
+          "prediction": "$7.5 million",
+          "ground_truth": "$1,411,645.54"
+        },
+        {
+          "index": 97,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 102,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 100,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 101,
+          "prediction": "Incomplete solution due to partial image visibility. Full resolution requires complete binomial tree diagram.",
+          "ground_truth": "$\\mathbb{E}_2[M_3](TH)=6\\frac{2}{3}, \\mathbb{E}_2[M_3](TT)=4$. $M_n$ is not Markov."
+        },
+        {
+          "index": 105,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 104,
+          "prediction": "$cc + K_1e^{-rT_1} = pc + Se^{-qT_1}$",
+          "ground_truth": "$cc+K_1 e^{-rT_1} = pc+c$"
+        },
+        {
+          "index": 110,
+          "prediction": "The stop-loss order will NOT be executed at this time, as the current bid price ($19.95) is below the $20 trigger price.",
+          "ground_truth": "The broker is instructed to attempt to sell your Marriott stock as soon as the Marriott stock trades at a bid price of $20 or less. Here, the broker will attempt to execute, but may not be able to sell at $20, since the bid price is now $19.95. The price at which you sell may be more or less than $20 because the stop-loss becomes a market order to sell at current market prices."
+        },
+        {
+          "index": 106,
+          "prediction": "Insufficient information to calculate the exact abandonment option value. More details about the price tree, abandonment conditions, and salvage value are required.",
+          "ground_truth": "$390"
+        },
+        {
+          "index": 108,
+          "prediction": "16,640 abalone units",
+          "ground_truth": "16,640.50, or about 16,641 units"
+        },
+        {
+          "index": 114,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 113,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 116,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 117,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 122,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 123,
+          "prediction": "{\n    \"E1[E2[S3]](H)\": 24",
+          "ground_truth": "$\\mathbb{E}_1[\\mathbb{E}_2[S_3]](H)=18, \\mathbb{E}_1[\\mathbb{E}_2[S_3]](H)=4.5$"
+        },
+        {
+          "index": 126,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 127,
+          "prediction": "E",
+          "ground_truth": "A"
+        },
+        {
+          "index": 128,
+          "prediction": "Inconclusive",
+          "ground_truth": "Rejects."
+        },
+        {
+          "index": 121,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 131,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 132,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 130,
+          "prediction": "$42.05",
+          "ground_truth": "zero"
+        },
+        {
+          "index": 136,
+          "prediction": "{\n    \"Image 1\": \"Possible\"",
+          "ground_truth": "Not possible. "
+        },
+        {
+          "index": 139,
+          "prediction": "B. Asgard",
+          "ground_truth": "C"
+        },
+        {
+          "index": 141,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 143,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 144,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 146,
+          "prediction": "Project C",
+          "ground_truth": "Project B"
+        },
+        {
+          "index": 149,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 148,
+          "prediction": "Yes, all call options are in the money",
+          "ground_truth": "Yes."
+        },
+        {
+          "index": 152,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 153,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 157,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 158,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 151,
+          "prediction": "Portfolio B",
+          "ground_truth": "Kay should recommend Stock Y."
+        },
+        {
+          "index": 156,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 163,
+          "prediction": "8,750 abalone units per year",
+          "ground_truth": "20,596.68, or about 20,597 units"
+        },
+        {
+          "index": 164,
+          "prediction": "Incomplete solution due to insufficient information",
+          "ground_truth": "$1.16"
+        },
+        {
+          "index": 161,
+          "prediction": "null",
+          "ground_truth": "6.474"
+        },
+        {
+          "index": 165,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 169,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 166,
+          "prediction": "Insufficient information to calculate the exact realized compound yield",
+          "ground_truth": "6.66%"
+        },
+        {
+          "index": 171,
+          "prediction": "\u03bb = (\u03bc_S - r) / \u03c3_S",
+          "ground_truth": "$\\rho_{SP}\\sigma{P}$"
+        },
+        {
+          "index": 173,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 176,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 172,
+          "prediction": "0.098",
+          "ground_truth": ".0461, or 4.61%"
+        },
+        {
+          "index": 174,
+          "prediction": "Stock A: 30%, Stock B: 40%",
+          "ground_truth": "\u03c3A = 34.78%\n\u03c3B = 47.93%"
+        },
+        {
+          "index": 179,
+          "prediction": "Incomplete calculation due to missing unlevered cost of capital",
+          "ground_truth": "$2,713,293.68"
+        },
+        {
+          "index": 180,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 181,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 184,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 189,
+          "prediction": "B",
+          "ground_truth": "d"
+        },
+        {
+          "index": 186,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 190,
+          "prediction": "0.0161 or 1.61%",
+          "ground_truth": ".0162, or 1.62%"
+        },
+        {
+          "index": 185,
+          "prediction": "a-iv, b-iii, c-v, e-ii",
+          "ground_truth": "a. \u2013 iv\nb. \u2013 iii\nc. \u2013 v\nd. \u2013 i\ne. \u2013 ii"
+        },
+        {
+          "index": 192,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 194,
+          "prediction": "B. One",
+          "ground_truth": "B"
+        },
+        {
+          "index": 200,
+          "prediction": "C. increase",
+          "ground_truth": "C"
+        },
+        {
+          "index": 201,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 206,
+          "prediction": "B. Portfolio 2",
+          "ground_truth": "B"
+        },
+        {
+          "index": 204,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 212,
+          "prediction": "C",
+          "ground_truth": "c."
+        },
+        {
+          "index": 216,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 215,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 210,
+          "prediction": "5.39%",
+          "ground_truth": "0.0609"
+        },
+        {
+          "index": 218,
+          "prediction": "A",
+          "ground_truth": "B"
+        },
+        {
+          "index": 219,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 214,
+          "prediction": "Tax Lot C",
+          "ground_truth": "Tax Lot B"
+        },
+        {
+          "index": 217,
+          "prediction": "B",
+          "ground_truth": "C"
+        },
+        {
+          "index": 229,
+          "prediction": "C",
+          "ground_truth": "A"
+        },
+        {
+          "index": 221,
+          "prediction": "W and Z",
+          "ground_truth": "X"
+        },
+        {
+          "index": 225,
+          "prediction": "Inconclusive",
+          "ground_truth": "Supports."
+        },
+        {
+          "index": 223,
+          "prediction": "d < 1+r < u",
+          "ground_truth": "$0 < d < 1 + r < u $"
+        },
+        {
+          "index": 232,
+          "prediction": "A",
+          "ground_truth": "C"
+        },
+        {
+          "index": 236,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 234,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 239,
+          "prediction": "A",
+          "ground_truth": "Stock B\u2019s systematic risk is greater."
+        },
+        {
+          "index": 238,
+          "prediction": "$28,440",
+          "ground_truth": "$38,950"
+        },
+        {
+          "index": 246,
+          "prediction": "B",
+          "ground_truth": "A"
+        },
+        {
+          "index": 248,
+          "prediction": "C",
+          "ground_truth": "B"
+        },
+        {
+          "index": 247,
+          "prediction": "Do not recommend the project, as the NPV is slightly negative at -$64,726, which means the project does not meet the 13% required return.",
+          "ground_truth": "Yes"
+        }
+      ]
+    }
+  }
+]

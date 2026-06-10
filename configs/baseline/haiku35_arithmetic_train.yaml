@@ -1,0 +1,33 @@
+# Baseline Configuration - Haiku 3.5 Arithmetic Training Set (via OpenRouter)
+# Usage: python skill_learning/run_baseline.py --config configs/baseline/haiku35_arithmetic_train.yaml
+
+baseline:
+  name: "haiku35_arithmetic_train_baseline"
+  description: "Haiku 3.5 baseline on arithmetic training set (PoT) via OpenRouter"
+
+# Generation model - Haiku 3.5 via OpenRouter
+generation:
+  model: "anthropic/claude-3.5-haiku"  # OpenRouter model ID
+  provider: "openrouter"
+  pot_mode: true  # Arithmetic uses Program of Thought
+
+# Evaluation model - Qwen for cost efficiency
+evaluation:
+  model: "qwen-max"
+  provider: "dashscope"
+  selection_model: "qwen-turbo"  # For MC: map numerical result to letter
+  strategy: "hybrid"  # rule-based MC + LLM judge for open
+
+# Dataset
+dataset:
+  path: "data/famma_arithmetic_train_split.csv"
+  split: "train"
+  limit: null  # Set to integer for quick tests
+
+# Output
+output:
+  dir: "results/haiku35_arithmetic_train_baseline"
+
+# Debug
+debug:
+  enabled: false

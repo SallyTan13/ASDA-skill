@@ -1,0 +1,44 @@
+# Usage: python skill_learning/evaluate_checkpoint.py --config configs/evaluation/haiku35_non_arithmetic_eval_warm_up_skills.yaml
+
+evaluation:
+  name: "haiku35_non_arithmetic_eval_warm_up_skills"
+  description: "Haiku 3.5 + famma-non-arithmetic-haiku35 skills (warm-up) on eval set"
+
+# Skills configuration
+skills:
+  dir: ".claude/skills/famma-non-arithmetic-haiku35"
+  use_skills: true
+  loading_mode: "router"
+  router_type: "auto"  # No subfield metadata — LLM infers from question
+  router_model: "anthropic/claude-3.5-haiku"
+  router_provider: "openrouter"
+
+# Generation model - Haiku 3.5 via OpenRouter
+generation:
+  model: "anthropic/claude-3.5-haiku"
+  provider: "openrouter"
+  pot_mode: false  # Non-arithmetic uses direct reasoning
+
+# Evaluation model
+eval_model:
+  name: "qwen-max"
+  provider: "dashscope"
+  selection_model: "qwen-turbo"
+  strategy: "hybrid"
+
+# Input configuration
+input:
+  val_csv: "data/famma_non_arithmetic_eval_split.csv"
+  baseline_dir: "results/haiku35_non_arithmetic_eval_baseline"
+  limit: null
+
+# Output configuration
+output:
+  dir: "results/haiku35_non_arithmetic_eval_warm_up_skills"
+  format: "json"
+  include_baseline: true
+  include_code_status: false
+
+# Debug
+debug:
+  enabled: true

@@ -1,0 +1,21 @@
+{
+  "task_name": "arithmetic",
+  "pot_mode": true,
+  "api_provider": "openrouter",
+  "generator_model": "anthropic/claude-3.5-haiku",
+  "reflection_model": "claude-sonnet-4-5-20250929",
+  "max_metric_calls": 1500,
+  "best_idx": 4,
+  "best_score": 0.49557522123893805,
+  "seed_score": 0.4690265486725664,
+  "all_val_scores": [
+    0.4690265486725664,
+    0.4823008849557522,
+    0.4469026548672566,
+    0.4336283185840708,
+    0.49557522123893805,
+    0.4823008849557522
+  ],
+  "total_metric_calls": 1506,
+  "best_prompt_path": "results/famma_arithmetic_haiku35_sonnet45_pot_fair_split/best_prompt.txt"
+}

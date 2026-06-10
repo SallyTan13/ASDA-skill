@@ -1,0 +1,26 @@
+{
+  "task_name": "non_arithmetic",
+  "mode": "offline",
+  "generator_model": "anthropic/claude-3.5-haiku",
+  "reflector_model": "claude-sonnet-4-5-20250929",
+  "curator_model": "claude-sonnet-4-5-20250929",
+  "config": {
+    "num_epochs": 1,
+    "max_num_rounds": 1,
+    "curator_frequency": 5,
+    "eval_steps": 100,
+    "online_eval_frequency": 15,
+    "save_steps": 25,
+    "playbook_token_budget": 80000,
+    "task_name": "non_arithmetic",
+    "mode": "offline",
+    "json_mode": false,
+    "no_ground_truth": false,
+    "save_dir": "results/famma_non_arithmetic_haiku35_sonnet45",
+    "test_workers": 10,
+    "initial_playbook_path": null,
+    "use_bulletpoint_analyzer": false,
+    "bulletpoint_analyzer_threshold": 0.9,
+    "api_provider": "openrouter"
+  }
+}

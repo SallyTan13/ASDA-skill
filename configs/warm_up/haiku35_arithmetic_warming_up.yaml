@@ -1,0 +1,44 @@
+# Skill Warming Up Configuration - Arithmetic (PoT)
+# Example: python skill_learning/skill_warming_up.py --config configs/warming_up/haiku35_arithmetic_warming_up.yaml
+
+warming_up:
+  name: "haiku35_arithmetic_skills_warm_up"
+  description: "Initial skill generation from Haiku 3.5 arithmetic failure clusters (PoT)"
+
+# Model used to generate skills
+model:
+  name: "claude-sonnet-4-5-20250929"  # qwen-flash, qwen-plus, qwen-max, claude-sonnet-4-5-20250929, etc.
+  temperature: 0.3
+  max_tokens: 24576
+
+# Input configuration
+input:
+  clusters_file: "case_analysis/haiku35_arithmetic_failures/failure_clusters.json"
+  signatures_file: "case_analysis/haiku35_arithmetic_failures/failure_signatures.json"
+  pot_mode: true  # Arithmetic questions use PoT (enables PoT-specific prompts)
+
+# Output configuration
+output:
+  dir: "skills/famma-arithmetic-haiku35-warm-up"
+
+# Batch processing settings
+batch:
+  size: 12  # Number of cases per batch
+  max_batches: 12  # Maximum batches to process per skill file
+  stability_threshold: 2  # Stop after N consecutive batches with no new patterns
+  min_cluster_size: 2  # Only process clusters with >= N failures
+
+# Line budgets (advisory limits for generated skill files)
+line_budget:
+  skill_md: 400  # SKILL.md navigation file
+  common: 300  # Common skill files (cross-subfield)
+  subfield: 500  # Subfield-specific skill files
+
+# Feature flags
+features:
+  enable_split: false  # Enable semantic splitting of skill files into smaller topical files
+
+# Checkpoint configuration
+checkpoint:
+  enabled: true
+  dir: "skill_learning/checkpoints"

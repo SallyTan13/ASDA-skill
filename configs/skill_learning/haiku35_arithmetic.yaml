@@ -1,0 +1,125 @@
+# =============================================================================
+# Skill Learning Configuration - Arithmetic (PoT Mode) via OpenRouter
+# =============================================================================
+# Example configuration using OpenRouter for Haiku 3.5.
+# Requires OPENROUTER_API_KEY in .env file.
+#
+# Usage:
+#   python skill_learning/integration_example.py train-api --config configs/skill_learning/haiku35_arithmetic.yaml
+# =============================================================================
+
+# =============================================================================
+# Model Configuration
+# =============================================================================
+# Provider options: "openrouter", "anthropic", "dashscope"
+# - openrouter: Uses OPENROUTER_API_KEY, model format "anthropic/claude-3.5-haiku"
+# - anthropic: Uses ANTHROPIC_API_KEY, model format "claude-haiku-4-5-20251001"
+# - dashscope: Uses DASHSCOPE_API_KEY, model format "qwen-max"
+# - Omit provider for auto-detect based on model name
+models:
+  analyze: "claude-sonnet-4-5-20250929"          # For failure pattern analysis and signatures
+  gen: "anthropic/claude-3.5-haiku"              # For generating answers during training/eval
+  gen_provider: "openrouter"
+  eval: "qwen-max"                               # For evaluating/judging answer correctness
+  refine: "claude-sonnet-4-5-20250929"           # For refining skills based on evidence
+  router: "anthropic/claude-3.5-haiku"           # For routing questions to appropriate skills
+  router_provider: "openrouter"
+  selection: "qwen-turbo"                        # For selecting MC option from numerical result
+
+model_params:
+  refine_temperature: 0.5                        # Temperature for refinement (0.0-1.0, lower=deterministic)
+  gen_max_tokens: 8192                           # Max tokens for answer generation
+  refine_max_tokens: 20480                       # Max tokens for skill refinement (needs to be high)
+
+# =============================================================================
+# Evaluation Configuration
+# =============================================================================
+evaluation:
+  batch_enabled: false                       # Use batch evaluation (process multiple questions)
+  batch_size: 10                             # Questions per batch (when batch_enabled=true)
+  strategy: "hybrid"                         # "llm_only"/"hybrid" (only when batch_enabled=false)
+
+# =============================================================================
+# Skills Configuration
+# =============================================================================
+skills:
+  dir: "skills/famma-arithmetic-haiku35-warm-up"  # Directory containing skill files (.md)
+  loading_mode: "router"                     # auto/router/progressive
+  method: "router"                           # router/progressive
+  router_type: "auto"                        
+  pot_mode: true                             # Program of Thought: execute Python code for answers
+  enable_split: false                        # Enable skill splitting into smaller files
+
+# =============================================================================
+# Training Parameters
+# =============================================================================
+training:
+  M: 30                                       # Number of skill files to update per epoch
+  lambda_regress: 2.0                        # Regression penalty weight (higher=conservative)
+  patience: 3                                # Early stopping: epochs without improvement
+  max_epochs: 4                              # Maximum training epochs
+  max_questions: null                        # Max questions for training (null=full dataset)
+  max_val_questions: null                    # Max questions for validation (null=full dataset, useful for unit tests)
+  simple_example_max_questions: 5            # Max questions for quick test runs
+  sample_display_frequency: 20               # Display progress every N questions
+  splits: ["train", "eval"]                  # Which splits to run: ["train"], ["val"/"eval"], or ["train", "val"/"eval"]
+  subfields: null                            # Filter by subfields (e.g., ["portfolio management", "derivatives"])
+  parallel_refine_workers: 3                 # Parallel file refinement (0=disabled, 3=recommended)
+
+# =============================================================================
+# Evidence Collection
+# =============================================================================
+# Q+ = cases where skill helped correctly, Q- = skill caused wrong answer
+evidence:
+  p_min: 5                                   # Min Q+ needed to trigger refinement
+  r_min: 1                                   # Min Q- needed to trigger refinement
+  evidence_p: 8                              # Max positive cases to sample per skill file
+  evidence_n: 10                             # Max negative cases to sample per skill file
+  max_context_length: 800                    # Max context length (chars) in evidence cards
+  format_max_cases: 6                        # Max cases to include in refinement prompt
+  discover_max_cases: 5                      # Max Q+_discover cases (routing mismatches)
+  gap_max_cases: 5                           # Max Q0_gap cases (capability gaps)
+  max_skill_lines: 500                       # Max lines allowed in refined skill files
+  analysis_batch_size: 8                     # Batch size for LLM analysis calls
+
+# =============================================================================
+# Residual Evidence
+# =============================================================================
+residual:
+  enable_probe_alternatives: false           # Probe other skills for unsolved cases
+  enable_analysis: true                      # Enable residual evidence collection
+  max_cases: 200                             # Max unsolved cases to analyze
+  max_probes_per_case: 3                     # Max alternative skills to probe per case
+  enable_diagnosis: true                     # Enable LLM diagnosis (classification + explanation)
+  max_context_length: 800                    # Max context length for residual analysis
+  diagnosis_batch_size: 8                    # Batch size for diagnosis LLM calls
+  min_cases: 2                               # Min cases to trigger residual refinement
+
+# =============================================================================
+# Sandbox Verification
+# =============================================================================
+sandbox:
+  enabled: true
+  solve_threshold: 0.3                       # Min fraction of Q- cases to solve for sandbox PASS (30%)
+  route_threshold: 0.5                       # Min fraction of Q+_discover routed correctly (50%)
+  q_plus_threshold: 0.8                      # Min fraction of Q+ cases still working for sandbox PASS (80%)
+  max_refine_attempts: 3                     # Max refinement attempts before accepting best
+  max_cases: 10                              # Max Q-/Q+ cases to test per file
+  # Minimum thresholds when accepting best attempt after all retries fail:
+  min_q_plus_rate: 0.5                       # Q+ must be >= 50% to accept (when Q+ exists)
+  min_q_minus_rate: 0.1                      # Q- must be >= 10% to accept (when Q- exists)
+
+# =============================================================================
+# Deep Analysis
+# =============================================================================
+enable_deep_analysis: true
+
+# =============================================================================
+# Directory Paths
+# =============================================================================
+paths:
+  checkpoint_dir: "skill_learning/checkpoints_arithmetic_haiku35"
+  train_baseline_dir: "results/haiku35_arithmetic_train_baseline"
+  val_baseline_dir: "results/haiku35_arithmetic_eval_baseline"
+  train_csv: "data/famma_arithmetic_train_split.csv"
+  val_csv: "data/famma_arithmetic_eval_split.csv"

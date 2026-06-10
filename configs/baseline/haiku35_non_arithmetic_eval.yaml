@@ -1,0 +1,33 @@
+# Baseline Configuration - Haiku 3.5 Arithmetic Eval Set (via OpenRouter)
+# Usage: python skill_learning/run_baseline.py --config configs/baseline/haiku35_non_arithmetic_eval.yaml
+
+baseline:
+  name: "haiku35_non_arithmetic_eval_baseline"
+  description: "Haiku 3.5 baseline on non-arithmetic eval set (PoT) via OpenRouter"
+
+# Generation model - Haiku 3.5 via OpenRouter
+generation:
+  model: "anthropic/claude-3.5-haiku"  # OpenRouter model ID
+  provider: "openrouter"
+  pot_mode: false
+
+# Evaluation model - Qwen for cost efficiency
+evaluation:
+  model: "qwen-max"
+  provider: "dashscope"
+  selection_model: "qwen-turbo"  # For MC: map numerical result to letter
+  strategy: "hybrid"  # rule-based MC + LLM judge for open
+
+# Dataset
+dataset:
+  path: "data/famma_non_arithmetic_eval_split.csv"
+  split: "eval"
+  limit: null  # Set to integer for quick tests
+
+# Output
+output:
+  dir: "results/haiku35_non_arithmetic_eval_baseline"
+
+# Debug
+debug:
+  enabled: false

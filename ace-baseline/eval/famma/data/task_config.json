@@ -1,0 +1,12 @@
+{
+  "non_arithmetic": {
+    "train_data": "eval/famma/data/non_arithmetic_train_split.jsonl",
+    "val_data": "eval/famma/data/non_arithmetic_val_split.jsonl",
+    "test_data": "eval/famma/data/non_arithmetic_eval.jsonl"
+  },
+  "arithmetic": {
+    "train_data": "eval/famma/data/arithmetic_train_split.jsonl",
+    "val_data": "eval/famma/data/arithmetic_val_split.jsonl",
+    "test_data": "eval/famma/data/arithmetic_eval.jsonl"
+  }
+}

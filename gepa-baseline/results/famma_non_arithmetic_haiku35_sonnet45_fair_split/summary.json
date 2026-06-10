@@ -1,0 +1,23 @@
+{
+  "task_name": "non_arithmetic",
+  "pot_mode": false,
+  "api_provider": "openrouter",
+  "generator_model": "anthropic/claude-3.5-haiku",
+  "reflection_model": "claude-sonnet-4-5-20250929",
+  "max_metric_calls": 1500,
+  "best_idx": 7,
+  "best_score": 0.5263157894736842,
+  "seed_score": 0.47368421052631576,
+  "all_val_scores": [
+    0.47368421052631576,
+    0.5052631578947369,
+    0.4789473684210526,
+    0.5210526315789473,
+    0.5052631578947369,
+    0.5157894736842106,
+    0.47368421052631576,
+    0.5263157894736842
+  ],
+  "total_metric_calls": 1690,
+  "best_prompt_path": "results/famma_non_arithmetic_haiku35_sonnet45_fair_split/best_prompt.txt"
+}
